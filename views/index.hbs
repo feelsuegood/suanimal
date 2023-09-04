@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <link rel="stylesheet" href="css/styles.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa Clone</title>
+    <title>{{title}}</title>
+    {{!-- {{#each css}}
+        <link rel="stylesheet" href="/css/{{this}}">
+    {{/each}} --}}
+    <link rel="stylesheet" href="./stylesheets/style.css" />
   </head>
   <body>
-   
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Sanimal</h1>
+      <h1 class="welcome-header__title">Welcome to Suanimal</h1>
       <p class="welcome-header__text">
         A lot of animals is endangered. Please save them with Sanimal.
       </p>
     </header>
-    <form action="test" method="get" id="login-form">
+{{!-- search an endangered animal by name --}}
+    <form action="test" method="get" id="search-form">
       <input
         name="name"
         required

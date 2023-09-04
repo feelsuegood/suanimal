@@ -1,6 +1,15 @@
 <h1>The Endangered Animals List </h1>
-<p>{{nameData.[0].name}}</p>
-<p>{{threatData.[0].threat}}</p>
+{{#each nameData}}
+<p>{{this.name}}</p>
+{{/each}}
+{{#each threatData}}
+<p>{{this.threat}}</p>
+{{/each}}
+{{#each photoData}}
+ <a href={{this.url}}>
+    <img src={{this.image}} alt={{this.title}} />
+    {{/each}}
+
 {{!-- {{#each nameData}}
   <p>{{this.name}}</p>
 {{/each}} --}}
