@@ -1,1 +1,865 @@
-{"offset":0,"limit":20,"endOfRecords":false,"count":2602688167,"results":[{"key":4089794301,"datasetKey":"6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b","publishingOrgKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","installationKey":"b07988d2-1b3d-4fdb-931a-2e852ddac2dd","hostingOrganizationKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","publishingCountry":"GB","protocol":"EML","lastCrawled":"2023-08-19T07:20:14.855+00:00","lastParsed":"2023-08-26T21:10:32.085+00:00","crawlId":11,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","occurrenceStatus":"PRESENT","taxonKey":2484904,"kingdomKey":1,"phylumKey":44,"classKey":212,"orderKey":729,"familyKey":5283,"genusKey":2484878,"speciesKey":2484904,"acceptedTaxonKey":2484904,"scientificName":"Sitta pusilla Latham, 1790","acceptedScientificName":"Sitta pusilla Latham, 1790","kingdom":"Animalia","phylum":"Chordata","order":"Passeriformes","family":"Sittidae","genus":"Sitta","species":"Sitta pusilla","genericName":"Sitta","specificEpithet":"pusilla","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":32.340335,"decimalLongitude":-81.839447,"continent":"NORTH_AMERICA","stateProvince":"Georgia","gadm":{"level0":{"gid":"USA","name":"United States"},"level1":{"gid":"USA.11_1","name":"Georgia"},"level2":{"gid":"USA.11.16_1","name":"Bulloch"}},"year":2023,"month":1,"day":12,"eventDate":"2023-01-12T19:16:56","issues":["COORDINATE_ROUNDED","CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-26T21:10:32.085+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"000042f0-0d22-41e3-b33c-1f0e578e6744"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"4fa97426282e73ff5029016691b7ed3b6d083cfebdbc7a7c337571e58c24ea2c","geodeticDatum":"WGS84","class":"Aves","countryCode":"US","recordedByIDs":[],"identifiedByIDs":[],"country":"United States of America","identifier":"000042f0-0d22-41e3-b33c-1f0e578e6744","vernacularName":"Brown-headed Nuthatch","organismID":"29029","georeferenceVerificationStatus":"Verified by data custodian","municipality":"Jimps","locality":"Kennedy Pond","identificationVerificationStatus":"Accepted","gbifID":"4089794301","occurrenceID":"000042f0-0d22-41e3-b33c-1f0e578e6744","verbatimIdentification":"Sitta pusilla"},{"key":4089786302,"datasetKey":"6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b","publishingOrgKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","installationKey":"b07988d2-1b3d-4fdb-931a-2e852ddac2dd","hostingOrganizationKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","publishingCountry":"GB","protocol":"EML","lastCrawled":"2023-08-19T07:20:14.855+00:00","lastParsed":"2023-08-26T21:11:27.394+00:00","crawlId":11,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","individualCount":10,"occurrenceStatus":"PRESENT","taxonKey":2481759,"kingdomKey":1,"phylumKey":44,"classKey":212,"orderKey":7192402,"familyKey":5282,"genusKey":2481739,"speciesKey":2481759,"acceptedTaxonKey":2481759,"scientificName":"Calidris alpina (Linnaeus, 1758)","acceptedScientificName":"Calidris alpina (Linnaeus, 1758)","kingdom":"Animalia","phylum":"Chordata","order":"Charadriiformes","family":"Scolopacidae","genus":"Calidris","species":"Calidris alpina","genericName":"Calidris","specificEpithet":"alpina","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":51.639875,"decimalLongitude":-4.235606,"continent":"EUROPE","stateProvince":"Wales","gadm":{"level0":{"gid":"GBR","name":"United Kingdom"},"level1":{"gid":"GBR.4_1","name":"Wales"},"level2":{"gid":"GBR.4.19_1","name":"Swansea"},"level3":{"gid":"GBR.4.19.1_1","name":"Swansea"}},"year":2023,"month":1,"day":20,"eventDate":"2023-01-20T14:31:34","issues":["COORDINATE_ROUNDED","CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-26T21:11:27.394+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"00018dfc-3b06-4a55-a4ca-677efe391935"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"61bccbba76a77214bf8296eb7a3ece016aabb4f1331ef493c5dff0632b246f2d","geodeticDatum":"WGS84","class":"Aves","countryCode":"GB","recordedByIDs":[],"identifiedByIDs":[],"country":"United Kingdom of Great Britain and Northern Ireland","identifier":"00018dfc-3b06-4a55-a4ca-677efe391935","vernacularName":"Dunlin","organismID":"6687","georeferenceVerificationStatus":"Verified by data custodian","municipality":"Llanmadoc","locality":"Whiteford Burrows","identificationVerificationStatus":"Accepted","gbifID":"4089786302","occurrenceID":"00018dfc-3b06-4a55-a4ca-677efe391935","verbatimIdentification":"Calidris alpina"},{"key":4089782301,"datasetKey":"6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b","publishingOrgKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","installationKey":"b07988d2-1b3d-4fdb-931a-2e852ddac2dd","hostingOrganizationKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","publishingCountry":"GB","protocol":"EML","lastCrawled":"2023-08-19T07:20:14.855+00:00","lastParsed":"2023-08-26T21:10:34.265+00:00","crawlId":11,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","occurrenceStatus":"PRESENT","taxonKey":2481139,"kingdomKey":1,"phylumKey":44,"classKey":212,"orderKey":7192402,"familyKey":9316,"genusKey":2481126,"speciesKey":2481139,"acceptedTaxonKey":2481139,"scientificName":"Larus argentatus Pontoppidan, 1763","acceptedScientificName":"Larus argentatus Pontoppidan, 1763","kingdom":"Animalia","phylum":"Chordata","order":"Charadriiformes","family":"Laridae","genus":"Larus","species":"Larus argentatus","genericName":"Larus","specificEpithet":"argentatus","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":54.274549,"decimalLongitude":-0.421585,"continent":"EUROPE","stateProvince":"England","gadm":{"level0":{"gid":"GBR","name":"United Kingdom"},"level1":{"gid":"GBR.1_1","name":"England"},"level2":{"gid":"GBR.1.63_1","name":"North Yorkshire"},"level3":{"gid":"GBR.1.63.6_1","name":"Scarborough"}},"year":2023,"month":1,"day":29,"eventDate":"2023-01-29T13:14:27","issues":["COORDINATE_ROUNDED","CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-26T21:10:34.265+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"000339c2-199b-4229-af2f-a33ef12ea27c"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"6101df9832cd95c761bd7f952b5f4dcc8bd6bd3295fe0ffeee09974dd9cd3829","geodeticDatum":"WGS84","class":"Aves","countryCode":"GB","recordedByIDs":[],"identifiedByIDs":[],"country":"United Kingdom of Great Britain and Northern Ireland","identifier":"000339c2-199b-4229-af2f-a33ef12ea27c","vernacularName":"European Herring Gull","organismID":"6998","georeferenceVerificationStatus":"Verified by data custodian","municipality":"Falsgrave","locality":"Green Gables","identificationVerificationStatus":"Accepted","gbifID":"4089782301","occurrenceID":"000339c2-199b-4229-af2f-a33ef12ea27c","verbatimIdentification":"Larus argentatus"},{"key":4089793304,"datasetKey":"6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b","publishingOrgKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","installationKey":"b07988d2-1b3d-4fdb-931a-2e852ddac2dd","hostingOrganizationKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","publishingCountry":"GB","protocol":"EML","lastCrawled":"2023-08-19T07:20:14.855+00:00","lastParsed":"2023-08-26T21:11:28.716+00:00","crawlId":11,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","individualCount":2,"occurrenceStatus":"PRESENT","taxonKey":5231190,"kingdomKey":1,"phylumKey":44,"classKey":212,"orderKey":729,"familyKey":5264,"genusKey":2492321,"speciesKey":5231190,"acceptedTaxonKey":5231190,"scientificName":"Passer domesticus (Linnaeus, 1758)","acceptedScientificName":"Passer domesticus (Linnaeus, 1758)","kingdom":"Animalia","phylum":"Chordata","order":"Passeriformes","family":"Passeridae","genus":"Passer","species":"Passer domesticus","genericName":"Passer","specificEpithet":"domesticus","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":54.544735,"decimalLongitude":-1.921103,"continent":"EUROPE","stateProvince":"England","gadm":{"level0":{"gid":"GBR","name":"United Kingdom"},"level1":{"gid":"GBR.1_1","name":"England"},"level2":{"gid":"GBR.1.30_1","name":"County Durham"},"level3":{"gid":"GBR.1.30.1_1","name":"Durham"}},"year":2023,"month":1,"day":28,"eventDate":"2023-01-28T09:12:18","issues":["COORDINATE_ROUNDED","CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-26T21:11:28.716+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"0003a4fe-72c4-4720-867f-3928d3b5b860"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"a3c8719a2003696c7a2063027801b5301ecaedeebfaba06bfd048692c0a073e5","geodeticDatum":"WGS84","class":"Aves","countryCode":"GB","recordedByIDs":[],"identifiedByIDs":[],"country":"United Kingdom of Great Britain and Northern Ireland","identifier":"0003a4fe-72c4-4720-867f-3928d3b5b860","vernacularName":"House Sparrow","organismID":"32250","georeferenceVerificationStatus":"Verified by data custodian","municipality":"Barnard Castle","locality":"Homelands Guest House","identificationVerificationStatus":"Accepted","gbifID":"4089793304","occurrenceID":"0003a4fe-72c4-4720-867f-3928d3b5b860","verbatimIdentification":"Passer domesticus"},{"key":4089794305,"datasetKey":"6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b","publishingOrgKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","installationKey":"b07988d2-1b3d-4fdb-931a-2e852ddac2dd","hostingOrganizationKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","publishingCountry":"GB","protocol":"EML","lastCrawled":"2023-08-19T07:20:14.855+00:00","lastParsed":"2023-08-26T21:10:34.163+00:00","crawlId":11,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","individualCount":4,"occurrenceStatus":"PRESENT","taxonKey":9537647,"kingdomKey":1,"phylumKey":44,"classKey":212,"orderKey":1108,"familyKey":2986,"genusKey":2498368,"speciesKey":9537647,"acceptedTaxonKey":9537647,"scientificName":"Mergus merganser Linnaeus, 1758","acceptedScientificName":"Mergus merganser Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","order":"Anseriformes","family":"Anatidae","genus":"Mergus","species":"Mergus merganser","genericName":"Mergus","specificEpithet":"merganser","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":55.893323,"decimalLongitude":-4.314267,"continent":"EUROPE","stateProvince":"Scotland","gadm":{"level0":{"gid":"GBR","name":"United Kingdom"},"level1":{"gid":"GBR.3_1","name":"Scotland"},"level2":{"gid":"GBR.3.16_1","name":"Glasgow City"},"level3":{"gid":"GBR.3.16.1_1","name":"Glasgow"}},"year":2023,"month":1,"day":30,"eventDate":"2023-01-30T10:50:15","issues":["COORDINATE_ROUNDED","CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-26T21:10:34.163+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"0003a659-5150-4a75-9c21-a370a0d16330"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"e5528aa73cbd7d64dd63f5477d1af9e8e53dad3094a596798456e477bc469b21","geodeticDatum":"WGS84","class":"Aves","countryCode":"GB","recordedByIDs":[],"identifiedByIDs":[],"country":"United Kingdom of Great Britain and Northern Ireland","identifier":"0003a659-5150-4a75-9c21-a370a0d16330","vernacularName":"Common Merganser","organismID":"527","georeferenceVerificationStatus":"Verified by data custodian","municipality":"Kelvindale","locality":"Dawsholm Park","identificationVerificationStatus":"Accepted","gbifID":"4089794305","occurrenceID":"0003a659-5150-4a75-9c21-a370a0d16330","verbatimIdentification":"Mergus merganser"},{"key":4089782302,"datasetKey":"6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b","publishingOrgKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","installationKey":"b07988d2-1b3d-4fdb-931a-2e852ddac2dd","hostingOrganizationKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","publishingCountry":"GB","protocol":"EML","lastCrawled":"2023-08-19T07:20:14.855+00:00","lastParsed":"2023-08-26T21:10:32.153+00:00","crawlId":11,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","occurrenceStatus":"PRESENT","taxonKey":2482593,"kingdomKey":1,"phylumKey":44,"classKey":212,"orderKey":729,"familyKey":5235,"genusKey":2482592,"speciesKey":2482593,"acceptedTaxonKey":2482593,"scientificName":"Cyanocitta cristata (Linnaeus, 1758)","acceptedScientificName":"Cyanocitta cristata (Linnaeus, 1758)","kingdom":"Animalia","phylum":"Chordata","order":"Passeriformes","family":"Corvidae","genus":"Cyanocitta","species":"Cyanocitta cristata","genericName":"Cyanocitta","specificEpithet":"cristata","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":29.45358,"decimalLongitude":-95.05455,"continent":"NORTH_AMERICA","stateProvince":"Texas","gadm":{"level0":{"gid":"USA","name":"United States"},"level1":{"gid":"USA.44_1","name":"Texas"},"level2":{"gid":"USA.44.84_1","name":"Galveston"}},"year":2023,"month":1,"day":9,"eventDate":"2023-01-09T19:03:55","issues":["COORDINATE_ROUNDED","CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-26T21:10:32.153+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"0004298c-a528-49a4-b6bc-9af656817b3a"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"0256c3ab9639bd9ec6e9952af75d946cbbb9ea46ae881624959f01555eb925a3","geodeticDatum":"WGS84","class":"Aves","countryCode":"US","recordedByIDs":[],"identifiedByIDs":[],"country":"United States of America","identifier":"0004298c-a528-49a4-b6bc-9af656817b3a","vernacularName":"Blue Jay","organismID":"22397","georeferenceVerificationStatus":"Verified by data custodian","municipality":"Dickinson","locality":"Sam Vitanza Stadium","identificationVerificationStatus":"Accepted","gbifID":"4089782302","occurrenceID":"0004298c-a528-49a4-b6bc-9af656817b3a","verbatimIdentification":"Cyanocitta cristata"},{"key":4036190301,"datasetKey":"7ebef267-9d72-4c21-a276-cc84281a8590","publishingOrgKey":"d9bea9d3-13a5-4768-bbf4-560b9aa95a73","installationKey":"19893c10-381e-4534-9bb8-6c37d03ad29e","hostingOrganizationKey":"3c5e4331-7f2f-4a8d-aa56-81ece7014fc8","publishingCountry":"AU","protocol":"DWC_ARCHIVE","lastCrawled":"2023-07-14T10:29:19.026+00:00","lastParsed":"2023-08-26T02:21:14.063+00:00","crawlId":74,"extensions":{"http://rs.gbif.org/terms/1.0/Multimedia":[{"http://rs.tdwg.org/dwc/terms/occurrenceID":"0004d9cc-3047-4343-8f12-e2dec04b3f15","http://purl.org/dc/terms/identifier":"https://images.ala.org.au/image/proxyImageThumbnailLarge?imageId=20fff3ca-ba89-4c10-9742-dd7e609c9945","http://purl.org/dc/terms/format":"image/jpeg"},{"http://rs.tdwg.org/dwc/terms/occurrenceID":"0004d9cc-3047-4343-8f12-e2dec04b3f15","http://purl.org/dc/terms/identifier":"https://images.ala.org.au/image/proxyImageThumbnailLarge?imageId=3d1e4928-77c2-46ff-93a0-3acdaceef145","http://purl.org/dc/terms/format":"image/jpeg"},{"http://rs.tdwg.org/dwc/terms/occurrenceID":"0004d9cc-3047-4343-8f12-e2dec04b3f15","http://purl.org/dc/terms/identifier":"https://images.ala.org.au/image/proxyImageThumbnailLarge?imageId=46fdc21c-4bc1-493e-a67b-d7da94c5dd8f","http://purl.org/dc/terms/format":"image/jpeg"},{"http://rs.tdwg.org/dwc/terms/occurrenceID":"0004d9cc-3047-4343-8f12-e2dec04b3f15","http://purl.org/dc/terms/identifier":"https://images.ala.org.au/image/proxyImageThumbnailLarge?imageId=f7538f56-0d8b-4b29-9e7d-56dbdb6dedea","http://purl.org/dc/terms/format":"image/jpeg"},{"http://rs.tdwg.org/dwc/terms/occurrenceID":"0004d9cc-3047-4343-8f12-e2dec04b3f15","http://purl.org/dc/terms/identifier":"https://images.ala.org.au/image/proxyImageThumbnailLarge?imageId=481ab9b2-d3ef-46ae-be6d-61beef52a9c2","http://purl.org/dc/terms/format":"image/jpeg"}]},"basisOfRecord":"HUMAN_OBSERVATION","occurrenceStatus":"PRESENT","taxonKey":4135762,"kingdomKey":6,"phylumKey":7707728,"classKey":196,"orderKey":1369,"familyKey":3073,"genusKey":2706170,"speciesKey":4135762,"acceptedTaxonKey":4135762,"scientificName":"Rytidosperma racemosum (R.Br.) Connor & Edgar","acceptedScientificName":"Rytidosperma racemosum (R.Br.) Connor & Edgar","kingdom":"Plantae","phylum":"Tracheophyta","order":"Poales","family":"Poaceae","genus":"Rytidosperma","species":"Rytidosperma racemosum","genericName":"Rytidosperma","specificEpithet":"racemosum","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"NE","dateIdentified":"2023-01-12T00:17:20","decimalLatitude":-35.228401,"decimalLongitude":149.029708,"continent":"OCEANIA","stateProvince":"Australian Capital Territory","gadm":{"level0":{"gid":"AUS","name":"Australia"},"level1":{"gid":"AUS.2_1","name":"Australian Capital Territory"},"level2":{"gid":"AUS.2.1_1","name":"Unincorporated Australian Capita"}},"year":2023,"month":1,"day":11,"eventDate":"2023-01-11T10:17:00","issues":["CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-26T02:21:14.063+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"0004d9cc-3047-4343-8f12-e2dec04b3f15"}],"media":[{"type":"StillImage","format":"image/jpeg","identifier":"https://images.ala.org.au/image/proxyImageThumbnailLarge?imageId=f7538f56-0d8b-4b29-9e7d-56dbdb6dedea"},{"type":"StillImage","format":"image/jpeg","identifier":"https://images.ala.org.au/image/proxyImageThumbnailLarge?imageId=20fff3ca-ba89-4c10-9742-dd7e609c9945"},{"type":"StillImage","format":"image/jpeg","identifier":"https://images.ala.org.au/image/proxyImageThumbnailLarge?imageId=46fdc21c-4bc1-493e-a67b-d7da94c5dd8f"},{"type":"StillImage","format":"image/jpeg","identifier":"https://images.ala.org.au/image/proxyImageThumbnailLarge?imageId=481ab9b2-d3ef-46ae-be6d-61beef52a9c2"},{"type":"StillImage","format":"image/jpeg","identifier":"https://images.ala.org.au/image/proxyImageThumbnailLarge?imageId=3d1e4928-77c2-46ff-93a0-3acdaceef145"}],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"Mattm","identifiedBy":"Tapirlord","geodeticDatum":"WGS84","class":"Liliopsida","countryCode":"AU","recordedByIDs":[],"identifiedByIDs":[],"country":"Australia","identifier":"0004d9cc-3047-4343-8f12-e2dec04b3f15","http://unknown.org/taxonRankID":"7000","dynamicProperties":"{conservationLevel: Local Native, sensitivityLevel: Not Sensitive, invasivenessLevel: Non-Invasive }","locality":"Higgins","gbifID":"4036190301","occurrenceID":"0004d9cc-3047-4343-8f12-e2dec04b3f15","taxonID":"11844","taxonRemarks":"Plant Grass ","catalogNumber":"4463969","taxonConceptID":"https://id.biodiversity.org.au/node/apni/2903384","http://unknown.org/species":"Rytidosperma racemosum","occurrenceRemarks":"Seems to key out best as R. racemosum despite the slender inflorescence. Some lemmas extend past the glumes.","verbatimElevation":"0.0"},{"key":4023499301,"datasetKey":"84a649ce-ff81-420d-9c41-aa1de59e3766","publishingOrgKey":"adc174cd-c752-4eee-9630-7c1209eb1c4a","installationKey":"19893c10-381e-4534-9bb8-6c37d03ad29e","hostingOrganizationKey":"3c5e4331-7f2f-4a8d-aa56-81ece7014fc8","publishingCountry":"AU","protocol":"DWC_ARCHIVE","lastCrawled":"2023-07-14T10:24:53.754+00:00","lastParsed":"2023-08-26T03:07:08.673+00:00","crawlId":360,"extensions":{"http://rs.gbif.org/terms/1.0/Multimedia":[{"http://purl.org/dc/terms/creator":"Robert Browne-Cooper","http://rs.tdwg.org/dwc/terms/occurrenceID":"00055798-6419-4692-8057-cd6263f55d8e","http://purl.org/dc/terms/identifier":"https://images.ala.org.au/image/proxyImageThumbnailLarge?imageId=c3c74438-4410-4ff1-ba63-939fb8fdf04c","http://purl.org/dc/terms/license":"http://creativecommons.org/licenses/by/4.0/","http://purl.org/dc/terms/format":"image/jpeg","http://purl.org/dc/terms/title":"apoda.jpg","http://purl.org/dc/terms/rightsHolder":"Robert Browne-Cooper"}]},"basisOfRecord":"HUMAN_OBSERVATION","individualCount":1,"occurrenceStatus":"PRESENT","taxonKey":2464708,"kingdomKey":1,"phylumKey":44,"classKey":11592253,"familyKey":9115,"genusKey":2464603,"speciesKey":2464708,"acceptedTaxonKey":2464708,"scientificName":"Lerista apoda Storr, 1976","acceptedScientificName":"Lerista apoda Storr, 1976","kingdom":"Animalia","phylum":"Chordata","family":"Scincidae","genus":"Lerista","species":"Lerista apoda","genericName":"Lerista","specificEpithet":"apoda","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":-17.896268,"decimalLongitude":122.268161,"continent":"OCEANIA","stateProvince":"Western Australia","gadm":{"level0":{"gid":"AUS","name":"Australia"},"level1":{"gid":"AUS.11_1","name":"Western Australia"},"level2":{"gid":"AUS.11.13_1","name":"Broome"}},"year":2023,"month":1,"day":16,"eventDate":"2023-01-16T16:00:00","issues":["CONTINENT_DERIVED_FROM_COORDINATES"],"modified":"2023-01-28T13:42:45.000+00:00","lastInterpreted":"2023-08-26T03:07:08.673+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"00055798-6419-4692-8057-cd6263f55d8e"}],"media":[{"type":"StillImage","format":"image/jpeg","title":"apoda.jpg","creator":"Robert Browne-Cooper","license":"http://creativecommons.org/licenses/by/4.0/","rightsHolder":"Robert Browne-Cooper","identifier":"https://images.ala.org.au/image/proxyImageThumbnailLarge?imageId=c3c74438-4410-4ff1-ba63-939fb8fdf04c"}],"facts":[],"relations":[],"isInCluster":false,"datasetID":"e61eb018-02a9-4e3b-a4b3-9d6be33d9cbb","datasetName":"Individual sighting","recordedBy":"Browne-Cooper, Robert","geodeticDatum":"WGS84","class":"Squamata","countryCode":"AU","recordedByIDs":[],"identifiedByIDs":[],"country":"Australia","rightsHolder":"Atlas of Living Australia","eventID":"49318da8-4049-44d6-942a-2fa8b409662c","identifier":"00055798-6419-4692-8057-cd6263f55d8e","recordNumber":"https://biocollect.ala.org.au/sightings/bioActivity/index/49318da8-4049-44d6-942a-2fa8b409662c","institutionID":"in1033","http://unknown.org/taxonRankID":"7000","gbifID":"4023499301","occurrenceID":"00055798-6419-4692-8057-cd6263f55d8e","vernacularName":"Dampier Land Limbless Slider","locationRemarks":"nullnull","institutionCode":"Atlas of Living Australia","locationID":"d78df429-f1bd-4339-aafd-b7d32904fc3e","taxonConceptID":"https://biodiversity.org.au/afd/taxa/29caf4f2-aa55-4d28-b685-3f998392389c","eventTime":"02:50 PM","http://unknown.org/species":"Lerista apoda","occurrenceRemarks":"in pindan sand under deep leaflitter, below canopy shade"},{"key":4090559307,"datasetKey":"6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b","publishingOrgKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","installationKey":"b07988d2-1b3d-4fdb-931a-2e852ddac2dd","hostingOrganizationKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","publishingCountry":"GB","protocol":"EML","lastCrawled":"2023-08-19T07:20:14.855+00:00","lastParsed":"2023-08-26T21:11:29.573+00:00","crawlId":11,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","occurrenceStatus":"PRESENT","taxonKey":9705453,"kingdomKey":1,"phylumKey":44,"classKey":212,"orderKey":729,"familyKey":9327,"genusKey":2487923,"speciesKey":9705453,"acceptedTaxonKey":9705453,"scientificName":"Parus major Linnaeus, 1758","acceptedScientificName":"Parus major Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","order":"Passeriformes","family":"Paridae","genus":"Parus","species":"Parus major","genericName":"Parus","specificEpithet":"major","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":52.18417,"decimalLongitude":0.765636,"continent":"EUROPE","stateProvince":"England","gadm":{"level0":{"gid":"GBR","name":"United Kingdom"},"level1":{"gid":"GBR.1_1","name":"England"},"level2":{"gid":"GBR.1.96_1","name":"Suffolk"},"level3":{"gid":"GBR.1.96.5_1","name":"Saint Edmundsbury"}},"year":2023,"month":1,"day":29,"eventDate":"2023-01-29T09:52:26","issues":["COORDINATE_ROUNDED","CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-26T21:11:29.573+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"0005b16a-cdc3-4dfb-a15a-9dfa2ea834eb"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"6623759d605aeef3d42906df60327de5c89517c36b109b8d21910400bab9d0b0","geodeticDatum":"WGS84","class":"Aves","countryCode":"GB","recordedByIDs":[],"identifiedByIDs":[],"country":"United Kingdom of Great Britain and Northern Ireland","identifier":"0005b16a-cdc3-4dfb-a15a-9dfa2ea834eb","vernacularName":"Great Tit","organismID":"23406","georeferenceVerificationStatus":"Verified by data custodian","municipality":"Bradfield Combust","identificationVerificationStatus":"Accepted","gbifID":"4090559307","occurrenceID":"0005b16a-cdc3-4dfb-a15a-9dfa2ea834eb","verbatimIdentification":"Parus major"},{"key":4089782305,"datasetKey":"6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b","publishingOrgKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","installationKey":"b07988d2-1b3d-4fdb-931a-2e852ddac2dd","hostingOrganizationKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","publishingCountry":"GB","protocol":"EML","lastCrawled":"2023-08-19T07:20:14.855+00:00","lastParsed":"2023-08-26T21:11:28.592+00:00","crawlId":11,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","occurrenceStatus":"PRESENT","taxonKey":2492462,"kingdomKey":1,"phylumKey":44,"classKey":212,"orderKey":729,"familyKey":9322,"genusKey":2492460,"speciesKey":2492462,"acceptedTaxonKey":2492462,"scientificName":"Erithacus rubecula (Linnaeus, 1758)","acceptedScientificName":"Erithacus rubecula (Linnaeus, 1758)","kingdom":"Animalia","phylum":"Chordata","order":"Passeriformes","family":"Muscicapidae","genus":"Erithacus","species":"Erithacus rubecula","genericName":"Erithacus","specificEpithet":"rubecula","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":52.529251,"decimalLongitude":-0.942987,"continent":"EUROPE","stateProvince":"England","gadm":{"level0":{"gid":"GBR","name":"United Kingdom"},"level1":{"gid":"GBR.1_1","name":"England"},"level2":{"gid":"GBR.1.51_1","name":"Leicestershire"},"level3":{"gid":"GBR.1.51.3_1","name":"Harborough"}},"year":2023,"month":1,"day":26,"eventDate":"2023-01-26T08:39:14","issues":["COORDINATE_ROUNDED","CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-26T21:11:28.592+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"000662c8-fad8-43d3-b11a-1e33fd9f8392"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"c69441c380ab6a290d706faedc4ef892355d8ac5958e26b10d7c8071c4869b01","geodeticDatum":"WGS84","class":"Aves","countryCode":"GB","recordedByIDs":[],"identifiedByIDs":[],"country":"United Kingdom of Great Britain and Northern Ireland","identifier":"000662c8-fad8-43d3-b11a-1e33fd9f8392","vernacularName":"European Robin","organismID":"30705","georeferenceVerificationStatus":"Verified by data custodian","municipality":"West Langton","identificationVerificationStatus":"Accepted","gbifID":"4089782305","occurrenceID":"000662c8-fad8-43d3-b11a-1e33fd9f8392","verbatimIdentification":"Erithacus rubecula"},{"key":4089794306,"datasetKey":"6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b","publishingOrgKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","installationKey":"b07988d2-1b3d-4fdb-931a-2e852ddac2dd","hostingOrganizationKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","publishingCountry":"GB","protocol":"EML","lastCrawled":"2023-08-19T07:20:14.855+00:00","lastParsed":"2023-08-26T21:11:29.580+00:00","crawlId":11,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","occurrenceStatus":"PRESENT","taxonKey":5232452,"kingdomKey":1,"phylumKey":44,"classKey":212,"orderKey":1108,"familyKey":2986,"genusKey":2498190,"speciesKey":5232452,"acceptedTaxonKey":5232452,"scientificName":"Branta hutchinsii (Richardson, 1832)","acceptedScientificName":"Branta hutchinsii (Richardson, 1832)","kingdom":"Animalia","phylum":"Chordata","order":"Anseriformes","family":"Anatidae","genus":"Branta","species":"Branta hutchinsii","genericName":"Branta","specificEpithet":"hutchinsii","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":38.267521,"decimalLongitude":-122.277207,"continent":"NORTH_AMERICA","stateProvince":"California","gadm":{"level0":{"gid":"USA","name":"United States"},"level1":{"gid":"USA.5_1","name":"California"},"level2":{"gid":"USA.5.28_1","name":"Napa"}},"year":2023,"month":1,"day":10,"eventDate":"2023-01-10T00:41:19","issues":["COORDINATE_ROUNDED","CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-26T21:11:29.580+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"0006b5c4-e8fe-49df-a515-aae26e9199fc"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"4736095b6601c6d2b3b4cd3b5256cc84ce5074336da264bb5b5a1ef068252d76","geodeticDatum":"WGS84","class":"Aves","countryCode":"US","recordedByIDs":[],"identifiedByIDs":[],"country":"United States of America","identifier":"0006b5c4-e8fe-49df-a515-aae26e9199fc","vernacularName":"Cackling Goose","organismID":"258","georeferenceVerificationStatus":"Verified by data custodian","municipality":"Shipyard Acres","locality":"John F. Kennedy Memorial Park","identificationVerificationStatus":"Accepted","gbifID":"4089794306","occurrenceID":"0006b5c4-e8fe-49df-a515-aae26e9199fc","verbatimIdentification":"Branta hutchinsii"},{"key":4090347308,"datasetKey":"6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b","publishingOrgKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","installationKey":"b07988d2-1b3d-4fdb-931a-2e852ddac2dd","hostingOrganizationKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","publishingCountry":"GB","protocol":"EML","lastCrawled":"2023-08-19T07:20:14.855+00:00","lastParsed":"2023-08-26T21:10:34.203+00:00","crawlId":11,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","occurrenceStatus":"PRESENT","taxonKey":6065824,"kingdomKey":1,"phylumKey":44,"classKey":212,"orderKey":7192402,"familyKey":9316,"genusKey":4848452,"speciesKey":6065824,"acceptedTaxonKey":6065824,"scientificName":"Chroicocephalus ridibundus (Linnaeus, 1766)","acceptedScientificName":"Chroicocephalus ridibundus (Linnaeus, 1766)","kingdom":"Animalia","phylum":"Chordata","order":"Charadriiformes","family":"Laridae","genus":"Chroicocephalus","species":"Chroicocephalus ridibundus","genericName":"Chroicocephalus","specificEpithet":"ridibundus","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"NE","decimalLatitude":52.539587,"decimalLongitude":-0.230492,"continent":"EUROPE","stateProvince":"England","gadm":{"level0":{"gid":"GBR","name":"United Kingdom"},"level1":{"gid":"GBR.1_1","name":"England"},"level2":{"gid":"GBR.1.16_1","name":"Peterborough"},"level3":{"gid":"GBR.1.16.4_1","name":"Huntingdonshire"}},"year":2023,"month":1,"day":2,"eventDate":"2023-01-02T11:24:31","issues":["COORDINATE_ROUNDED","CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-26T21:10:34.203+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"0006f5db-3902-4592-ad9f-a2174e5d03db"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"ca5b0617f17e9db5c8508351a180286822d3c48345e069295926ae54d4d29a55","geodeticDatum":"WGS84","class":"Aves","countryCode":"GB","recordedByIDs":[],"identifiedByIDs":[],"country":"United Kingdom of Great Britain and Northern Ireland","identifier":"0006f5db-3902-4592-ad9f-a2174e5d03db","vernacularName":"Black-headed Gull","organismID":"6933","georeferenceVerificationStatus":"Verified by data custodian","municipality":"Farcet","locality":"Crown Lakes Country Park","identificationVerificationStatus":"Accepted","gbifID":"4090347308","occurrenceID":"0006f5db-3902-4592-ad9f-a2174e5d03db","verbatimIdentification":"Chroicocephalus ridibundus"},{"key":4094903301,"datasetKey":"67e2335c-4303-4ee3-9bfe-ecfe65662629","publishingOrgKey":"d3dd95c3-93d4-4349-a13f-55abf89ad140","installationKey":"99552c70-f762-11e1-a439-00145eb45e9a","hostingOrganizationKey":"07f617d0-c688-11d8-bf62-b8a03c50a862","publishingCountry":"GB","protocol":"DWC_ARCHIVE","lastCrawled":"2023-08-30T09:23:01.070+00:00","lastParsed":"2023-08-30T09:28:34.128+00:00","crawlId":271,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","occurrenceStatus":"PRESENT","lifeStage":"Adult","taxonKey":7429082,"kingdomKey":1,"phylumKey":44,"classKey":359,"orderKey":1459,"familyKey":5510,"genusKey":9800657,"speciesKey":7429082,"acceptedTaxonKey":7429082,"scientificName":"Mus musculus Linnaeus, 1758","acceptedScientificName":"Mus musculus Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","order":"Rodentia","family":"Muridae","genus":"Mus","species":"Mus musculus","genericName":"Mus","specificEpithet":"musculus","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":53.183197,"decimalLongitude":-2.869141,"coordinateUncertaintyInMeters":7.1,"continent":"EUROPE","stateProvince":"England","gadm":{"level0":{"gid":"GBR","name":"United Kingdom"},"level1":{"gid":"GBR.1_1","name":"England"},"level2":{"gid":"GBR.1.19_1","name":"Cheshire West and Chester"},"level3":{"gid":"GBR.1.19.1_1","name":"Cheshire West and Chester"}},"year":2023,"month":1,"day":26,"eventDate":"2023-01-26T00:00:00","issues":["CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-30T09:28:34.128+00:00","license":"http://creativecommons.org/licenses/by-nc/4.0/legalcode","identifiers":[{"identifier":"0006f8a6-c080-474a-bad7-bbe49e5380cc"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"Kay, J. Jack","identifiedBy":"Kay, Jack","geodeticDatum":"WGS84","class":"Mammalia","countryCode":"GB","recordedByIDs":[],"identifiedByIDs":[],"country":"United Kingdom of Great Britain and Northern Ireland","eventID":"21190707","identifier":"0006f8a6-c080-474a-bad7-bbe49e5380cc","informationWithheld":"OSGB Grid Reference SJ42016547","footprintWKT":"POLYGON((-2.86922 53.18315,-2.86922 53.18324,-2.86907 53.18324,-2.86907 53.18315,-2.86922 53.18315))","locality":"Dee Banks","http://unknown.org/license":"https://creativecommons.org/licenses/by-nc/4.0/legalcode","identificationVerificationStatus":"Accepted - correct","collectionCode":"iRecord | General data","gbifID":"4094903301","occurrenceID":"29259235","taxonID":"NBNSYS0000005121","vernacularName":"House Mouse","taxonConceptID":"NBNSYS0000005121","http://unknown.org/rightsHolder":"The Mammal Society and Biological Records Centre"},{"key":4090315308,"datasetKey":"6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b","publishingOrgKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","installationKey":"b07988d2-1b3d-4fdb-931a-2e852ddac2dd","hostingOrganizationKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","publishingCountry":"GB","protocol":"EML","lastCrawled":"2023-08-19T07:20:14.855+00:00","lastParsed":"2023-08-26T21:10:34.209+00:00","crawlId":11,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","occurrenceStatus":"PRESENT","taxonKey":2480389,"kingdomKey":1,"phylumKey":44,"classKey":212,"orderKey":7191147,"familyKey":2877,"genusKey":2480382,"speciesKey":2480389,"acceptedTaxonKey":2480389,"scientificName":"Gyps fulvus (Hablizl, 1783)","acceptedScientificName":"Gyps fulvus (Hablizl, 1783)","kingdom":"Animalia","phylum":"Chordata","order":"Accipitriformes","family":"Accipitridae","genus":"Gyps","species":"Gyps fulvus","genericName":"Gyps","specificEpithet":"fulvus","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":43.153683,"decimalLongitude":-4.623428,"continent":"EUROPE","stateProvince":"Cantabria","gadm":{"level0":{"gid":"ESP","name":"Spain"},"level1":{"gid":"ESP.3_1","name":"Cantabria"},"level2":{"gid":"ESP.3.1_1","name":"Cantabria"},"level3":{"gid":"ESP.3.1.7_1","name":"Liébana"}},"year":2023,"month":1,"day":17,"eventDate":"2023-01-17T13:34:51","issues":["COORDINATE_ROUNDED","CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-26T21:10:34.209+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"00081d52-d671-482c-917d-de604db93b23"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"27d0aa05bca20aa02a0420217fec0f63691256727ea0b9e577ee88f2ff57ca31","geodeticDatum":"WGS84","class":"Aves","countryCode":"ES","recordedByIDs":[],"identifiedByIDs":[],"country":"Spain","identifier":"00081d52-d671-482c-917d-de604db93b23","vernacularName":"Griffon Vulture","organismID":"8190","georeferenceVerificationStatus":"Verified by data custodian","municipality":"Potes","locality":"La Casa del Capitán","identificationVerificationStatus":"Accepted","eventRemarks":"Visible from our apartment balcony!!","gbifID":"4090315308","occurrenceID":"00081d52-d671-482c-917d-de604db93b23","verbatimIdentification":"Gyps fulvus"},{"key":4089794311,"datasetKey":"6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b","publishingOrgKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","installationKey":"b07988d2-1b3d-4fdb-931a-2e852ddac2dd","hostingOrganizationKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","publishingCountry":"GB","protocol":"EML","lastCrawled":"2023-08-19T07:20:14.855+00:00","lastParsed":"2023-08-26T21:11:29.597+00:00","crawlId":11,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","occurrenceStatus":"PRESENT","taxonKey":2495455,"kingdomKey":1,"phylumKey":44,"classKey":212,"orderKey":1446,"familyKey":5233,"genusKey":2495404,"speciesKey":2495455,"acceptedTaxonKey":2495455,"scientificName":"Columba palumbus Linnaeus, 1758","acceptedScientificName":"Columba palumbus Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","order":"Columbiformes","family":"Columbidae","genus":"Columba","species":"Columba palumbus","genericName":"Columba","specificEpithet":"palumbus","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":52.410614,"decimalLongitude":1.565237,"continent":"EUROPE","stateProvince":"England","gadm":{"level0":{"gid":"GBR","name":"United Kingdom"},"level1":{"gid":"GBR.1_1","name":"England"},"level2":{"gid":"GBR.1.96_1","name":"Suffolk"},"level3":{"gid":"GBR.1.96.7_1","name":"Waveney"}},"year":2023,"month":1,"day":29,"eventDate":"2023-01-29T18:34:41","issues":["COORDINATE_ROUNDED","CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-26T21:11:29.597+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"00088626-e255-4f2e-b111-5b02ae5fc00d"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"2e5ad92eb5e1dfaa2503809d78e2bab2a4cd93161a391f022c94e490b8d163d4","geodeticDatum":"WGS84","class":"Aves","countryCode":"GB","recordedByIDs":[],"identifiedByIDs":[],"country":"United Kingdom of Great Britain and Northern Ireland","identifier":"00088626-e255-4f2e-b111-5b02ae5fc00d","vernacularName":"Common Wood Pigeon","organismID":"4428","georeferenceVerificationStatus":"Verified by data custodian","municipality":"Willingham St Mary","locality":"War Memorial","identificationVerificationStatus":"Accepted","gbifID":"4089794311","occurrenceID":"00088626-e255-4f2e-b111-5b02ae5fc00d","verbatimIdentification":"Columba palumbus"},{"key":4090559308,"datasetKey":"6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b","publishingOrgKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","installationKey":"b07988d2-1b3d-4fdb-931a-2e852ddac2dd","hostingOrganizationKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","publishingCountry":"GB","protocol":"EML","lastCrawled":"2023-08-19T07:20:14.855+00:00","lastParsed":"2023-08-26T21:11:29.598+00:00","crawlId":11,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","occurrenceStatus":"PRESENT","taxonKey":2484916,"kingdomKey":1,"phylumKey":44,"classKey":212,"orderKey":729,"familyKey":5283,"genusKey":2484878,"speciesKey":2484916,"acceptedTaxonKey":2484916,"scientificName":"Sitta europaea Linnaeus, 1758","acceptedScientificName":"Sitta europaea Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","order":"Passeriformes","family":"Sittidae","genus":"Sitta","species":"Sitta europaea","genericName":"Sitta","specificEpithet":"europaea","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":52.206731,"decimalLongitude":-1.728568,"continent":"EUROPE","stateProvince":"England","gadm":{"level0":{"gid":"GBR","name":"United Kingdom"},"level1":{"gid":"GBR.1_1","name":"England"},"level2":{"gid":"GBR.1.108_1","name":"Warwickshire"},"level3":{"gid":"GBR.1.108.4_1","name":"Stratford-on-Avon"}},"year":2023,"month":1,"day":2,"eventDate":"2023-01-02T09:20:52","issues":["COORDINATE_ROUNDED","CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-26T21:11:29.598+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"0008b4f0-a072-4aa4-81a1-72cd2e4e6793"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"6c3863ffd669c13a1755718970bed0dca9cedb8bff8f77c0847e28c0566dbd63","geodeticDatum":"WGS84","class":"Aves","countryCode":"GB","recordedByIDs":[],"identifiedByIDs":[],"country":"United Kingdom of Great Britain and Northern Ireland","identifier":"0008b4f0-a072-4aa4-81a1-72cd2e4e6793","vernacularName":"Eurasian Nuthatch","organismID":"29058","georeferenceVerificationStatus":"Verified by data custodian","municipality":"Bishopton Hamlet","locality":"Bruce Bairnsfather","identificationVerificationStatus":"Accepted","gbifID":"4090559308","occurrenceID":"0008b4f0-a072-4aa4-81a1-72cd2e4e6793","verbatimIdentification":"Sitta europaea"},{"key":4022389301,"datasetKey":"963a6b96-4d22-4428-86e4-afee52cf4a8e","publishingOrgKey":"1a4e6112-b3af-402e-b29f-c2ade2167f72","installationKey":"f9c0c41b-6da4-4be4-b917-a6f7710f3dbc","hostingOrganizationKey":"1a4e6112-b3af-402e-b29f-c2ade2167f72","publishingCountry":"DK","protocol":"DWC_ARCHIVE","lastCrawled":"2023-08-30T18:22:53.889+00:00","lastParsed":"2023-08-30T18:28:31.647+00:00","crawlId":173,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","occurrenceStatus":"PRESENT","taxonKey":2484596,"kingdomKey":1,"phylumKey":44,"classKey":212,"orderKey":729,"familyKey":5279,"genusKey":2484589,"speciesKey":2484596,"acceptedTaxonKey":2484596,"scientificName":"Regulus regulus (Linnaeus, 1758)","acceptedScientificName":"Regulus regulus (Linnaeus, 1758)","kingdom":"Animalia","phylum":"Chordata","order":"Passeriformes","family":"Regulidae","genus":"Regulus","species":"Regulus regulus","genericName":"Regulus","specificEpithet":"regulus","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":55.332369,"decimalLongitude":10.798312,"coordinateUncertaintyInMeters":4.07,"continent":"EUROPE","gadm":{"level0":{"gid":"DNK","name":"Denmark"},"level1":{"gid":"DNK.5_1","name":"Syddanmark"},"level2":{"gid":"DNK.5.15_1","name":"Nyborg"}},"year":2023,"month":1,"day":23,"eventDate":"2023-01-23T00:00:00","issues":["COORDINATE_ROUNDED","CONTINENT_DERIVED_FROM_COORDINATES"],"modified":"2023-02-05T17:38:38.105+00:00","lastInterpreted":"2023-08-30T18:28:31.647+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"0008fd89-a2b0-469b-a0f7-af93012d82a6"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"Jørn Knudsen","identifiedBy":"Jørn Knudsen","geodeticDatum":"WGS84","class":"Aves","countryCode":"DK","recordedByIDs":[],"identifiedByIDs":[],"country":"Denmark","identifier":"0008fd89-a2b0-469b-a0f7-af93012d82a6","catalogNumber":"Arter_0008fd89-a2b0-469b-a0f7-af93012d82a6","vernacularName":"Fuglekonge","institutionCode":"MST-and-NHMD","dynamicProperties":"{\"Substrate\":\"\"}","eventTime":"13:50:19.088+01:00","gbifID":"4022389301","language":"da","occurrenceID":"https://arter.dk/observation/record-details/0008fd89-a2b0-469b-a0f7-af93012d82a6","bibliographicCitation":"Arter.dk Miljøstyrelsen","taxonID":"MSTSNM:Arter:211abc92-ab98-419e-a3f7-abc800da0dd6"},{"key":4090559309,"datasetKey":"6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b","publishingOrgKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","installationKey":"b07988d2-1b3d-4fdb-931a-2e852ddac2dd","hostingOrganizationKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","publishingCountry":"GB","protocol":"EML","lastCrawled":"2023-08-19T07:20:14.855+00:00","lastParsed":"2023-08-26T21:10:34.285+00:00","crawlId":11,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","individualCount":3,"occurrenceStatus":"PRESENT","taxonKey":2481139,"kingdomKey":1,"phylumKey":44,"classKey":212,"orderKey":7192402,"familyKey":9316,"genusKey":2481126,"speciesKey":2481139,"acceptedTaxonKey":2481139,"scientificName":"Larus argentatus Pontoppidan, 1763","acceptedScientificName":"Larus argentatus Pontoppidan, 1763","kingdom":"Animalia","phylum":"Chordata","order":"Charadriiformes","family":"Laridae","genus":"Larus","species":"Larus argentatus","genericName":"Larus","specificEpithet":"argentatus","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":52.452908,"decimalLongitude":1.724999,"continent":"EUROPE","stateProvince":"England","gadm":{"level0":{"gid":"GBR","name":"United Kingdom"},"level1":{"gid":"GBR.1_1","name":"England"},"level2":{"gid":"GBR.1.96_1","name":"Suffolk"},"level3":{"gid":"GBR.1.96.7_1","name":"Waveney"}},"year":2023,"month":1,"day":7,"eventDate":"2023-01-07T11:24:23","issues":["COORDINATE_ROUNDED","CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-26T21:10:34.285+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"00090479-793a-48e2-8a40-11a6aa6e067f"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"8383d2f6e2d5e817697245d061ea97c5dc799d8744ed93fa2b11e2a3eedf445c","geodeticDatum":"WGS84","class":"Aves","countryCode":"GB","recordedByIDs":[],"identifiedByIDs":[],"country":"United Kingdom of Great Britain and Northern Ireland","identifier":"00090479-793a-48e2-8a40-11a6aa6e067f","vernacularName":"European Herring Gull","organismID":"6998","georeferenceVerificationStatus":"Verified by data custodian","municipality":"Oulton Broad","locality":"Community News Board","identificationVerificationStatus":"Accepted","gbifID":"4090559309","occurrenceID":"00090479-793a-48e2-8a40-11a6aa6e067f","verbatimIdentification":"Larus argentatus"},{"key":4089633301,"datasetKey":"0645ccdb-e001-4ab0-9729-51f1755e007e","publishingOrgKey":"ef66652d-3cc3-4140-b268-a07d1e53441b","installationKey":"19893c10-381e-4534-9bb8-6c37d03ad29e","hostingOrganizationKey":"3c5e4331-7f2f-4a8d-aa56-81ece7014fc8","protocol":"DWC_ARCHIVE","lastCrawled":"2023-07-17T08:52:54.364+00:00","lastParsed":"2023-08-25T13:36:07.556+00:00","crawlId":340,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","occurrenceStatus":"PRESENT","taxonKey":4136422,"kingdomKey":6,"phylumKey":7707728,"classKey":196,"orderKey":1369,"familyKey":3073,"genusKey":2706170,"speciesKey":4136422,"acceptedTaxonKey":4136422,"scientificName":"Rytidosperma erianthum (Lindl.) Connor & Edgar","acceptedScientificName":"Rytidosperma erianthum (Lindl.) Connor & Edgar","kingdom":"Plantae","phylum":"Tracheophyta","order":"Poales","family":"Poaceae","genus":"Rytidosperma","species":"Rytidosperma erianthum","genericName":"Rytidosperma","specificEpithet":"erianthum","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"NE","decimalLatitude":-32.033948,"decimalLongitude":146.010841,"coordinatePrecision":1.0E-9,"coordinateUncertaintyInMeters":20.0,"elevation":246.0,"elevationAccuracy":0.0,"continent":"OCEANIA","stateProvince":"New South Wales","gadm":{"level0":{"gid":"AUS","name":"Australia"},"level1":{"gid":"AUS.5_1","name":"New South Wales"},"level2":{"gid":"AUS.5.34_1","name":"Cobar"}},"year":2023,"month":1,"day":21,"eventDate":"2023-01-21T00:00:00","issues":["CONTINENT_DERIVED_FROM_COORDINATES"],"modified":"2023-04-11T07:16:07.197+00:00","lastInterpreted":"2023-08-25T13:36:07.556+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"00097a12-a709-42f1-87da-bf70d40c5134"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"datasetID":"3347","datasetName":"GAP_EAST Vegetation Survey","recordedBy":"VEG-HUXCH;OIXR15060900","samplingProtocol":"Floristic Data","geodeticDatum":"WGS84","class":"Liliopsida","countryCode":"AU","recordedByIDs":[],"identifiedByIDs":[],"country":"Australia","http://unknown.org/northing":"6455374","rightsHolder":"NSW Dept of Planning and Environment","eventID":"CAOH23020404","scientificNameID":"14308","county":"COBAR","eventRemarks":"In very slight drainage depression. Acacia (melvillii?) and dense Geijera parviflora dense groundcover of grasses & chenopods","language":"en","gbifID":"4089633301","type":"Event","catalogNumber":"SPJGI7577597","locationRemarks":"locationRemarks withheld","institutionCode":"NSW Dept of Planning, Industry and Environment","taxonConceptID":"https://id.biodiversity.org.au/node/apni/2909819","rights":"CC-BY 4.0","http://unknown.org/easting":"406601","identifier":"00097a12-a709-42f1-87da-bf70d40c5134","http://unknown.org/zone":"55","nomenclaturalCode":"ICBN","http://unknown.org/taxonRankID":"7000","georeferenceProtocol":"GPS","locality":"locality withheld","collectionCode":"BioNet Atlas of NSW Wildlife","occurrenceID":"00097a12-a709-42f1-87da-bf70d40c5134","locationID":"LAOH23020404","ownerInstitutionCode":"NSW Dept of Planning and Environment","http://unknown.org/species":"Rytidosperma erianthum","occurrenceRemarks":"occurrenceRemarks withheld","bibliographicCitation":"BioNet Atlas of NSW Wildlife 18/04/2023 1:00 AM +10:00"},{"key":4090315311,"datasetKey":"6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b","publishingOrgKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","installationKey":"b07988d2-1b3d-4fdb-931a-2e852ddac2dd","hostingOrganizationKey":"0c6d40e3-5d96-4a2d-9342-b02833aaa766","publishingCountry":"GB","protocol":"EML","lastCrawled":"2023-08-19T07:20:14.855+00:00","lastParsed":"2023-08-26T21:10:34.218+00:00","crawlId":11,"extensions":{},"basisOfRecord":"HUMAN_OBSERVATION","occurrenceStatus":"PRESENT","taxonKey":2492462,"kingdomKey":1,"phylumKey":44,"classKey":212,"orderKey":729,"familyKey":9322,"genusKey":2492460,"speciesKey":2492462,"acceptedTaxonKey":2492462,"scientificName":"Erithacus rubecula (Linnaeus, 1758)","acceptedScientificName":"Erithacus rubecula (Linnaeus, 1758)","kingdom":"Animalia","phylum":"Chordata","order":"Passeriformes","family":"Muscicapidae","genus":"Erithacus","species":"Erithacus rubecula","genericName":"Erithacus","specificEpithet":"rubecula","taxonRank":"SPECIES","taxonomicStatus":"ACCEPTED","iucnRedListCategory":"LC","decimalLatitude":52.221364,"decimalLongitude":-2.217774,"continent":"EUROPE","stateProvince":"England","gadm":{"level0":{"gid":"GBR","name":"United Kingdom"},"level1":{"gid":"GBR.1_1","name":"England"},"level2":{"gid":"GBR.1.117_1","name":"Worcestershire"},"level3":{"gid":"GBR.1.117.4_1","name":"Worcester"}},"year":2023,"month":1,"day":20,"eventDate":"2023-01-20T14:21:26","issues":["COORDINATE_ROUNDED","CONTINENT_DERIVED_FROM_COORDINATES"],"lastInterpreted":"2023-08-26T21:10:34.218+00:00","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[{"identifier":"00098493-26ed-457a-b040-9fcbc0016607"}],"media":[],"facts":[],"relations":[],"isInCluster":false,"recordedBy":"ba03d4b7de757d3b8958c7341afc94a473a9972691a7502c4801f5b357adbddc","geodeticDatum":"WGS84","class":"Aves","countryCode":"GB","recordedByIDs":[],"identifiedByIDs":[],"country":"United Kingdom of Great Britain and Northern Ireland","identifier":"00098493-26ed-457a-b040-9fcbc0016607","vernacularName":"European Robin","organismID":"30705","georeferenceVerificationStatus":"Verified by data custodian","municipality":"Claines","locality":"Arboretum Community Gardens","identificationVerificationStatus":"Accepted","gbifID":"4090315311","occurrenceID":"00098493-26ed-457a-b040-9fcbc0016607","verbatimIdentification":"Erithacus rubecula"}],"facets":[]}
+{
+  "offset": 0,
+  "limit": 20,
+  "endOfRecords": true,
+  "count": 11,
+  "results": [
+    {
+      "key": 4267318,
+      "nameKey": 4812117,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 4267318,
+      "parentKey": 2436441,
+      "parent": "Gorilla gorilla",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Gorilla",
+      "species": "Gorilla gorilla",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 359,
+      "orderKey": 798,
+      "familyKey": 5483,
+      "genusKey": 2436440,
+      "speciesKey": 2436441,
+      "scientificName": "Gorilla gorilla gorilla",
+      "canonicalName": "Gorilla gorilla gorilla",
+      "authorship": "(Savage & Wyman, 1847) ",
+      "publishedIn": "Boston J. Nat. Hist. vol.5 p.417",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SUBSPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "extinct": false,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Western Lowland Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Western Lowland Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "western lowland gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "lowland gorilla"
+        },
+        {
+          "vernacularName": "western lowland gorilla"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "1": "Animalia",
+        "44": "Chordata",
+        "359": "Mammalia",
+        "798": "Primates",
+        "5483": "Hominidae",
+        "2436440": "Gorilla",
+        "2436441": "Gorilla gorilla"
+      },
+      "class": "Mammalia"
+    },
+    {
+      "key": 2436441,
+      "nameKey": 4812065,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 2436441,
+      "parentKey": 2436440,
+      "parent": "Gorilla",
+      "basionymKey": 7444103,
+      "basionym": "Troglodytes gorilla Savage, 1847",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Gorilla",
+      "species": "Gorilla gorilla",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 359,
+      "orderKey": 798,
+      "familyKey": 5483,
+      "genusKey": 2436440,
+      "speciesKey": 2436441,
+      "scientificName": "Gorilla gorilla (Savage, 1847)",
+      "canonicalName": "Gorilla gorilla",
+      "authorship": "(Savage, 1847) ",
+      "publishedIn": "Boston J. Nat. Hist. vol.5 p.417",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 3,
+      "numOccurrences": 0,
+      "extinct": false,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [
+        {
+          "description": "STATUS: CITES - Appendix I; U. S. ESA - Endangered; IUCN - Endangered as G. g. berengei and G. g. graueri, otherwise Vulnerable."
+        },
+        {
+          "description": "DISTRIBUTION: SE Nigeria, Cameroon, Rio Muni (Equatorial Guinea), Congo Republic, SW Central African Republic, Gabon, N and E Zaire, SW Uganda, N Rwanda."
+        },
+        {
+          "description": "TYPE LOCALITY: Gabon, Gabon Estuary, Mpongwe country."
+        },
+        {
+          "description": "PROTECTED STATUS: CITES - Appendix I as Pongidae and U. S. ESA - Endangered as G. gorilla."
+        },
+        {
+          "description": "DISTRIBUTION: S. E. Nigeria; Cameroun; Rio Muni; Congo Republic; Gabon; N. and E. Zaire; S. W. Uganda; N. Rwanda."
+        },
+        {
+          "description": "TYPE LOCALITY: Gabon, Gabon Estuary, Mpongwe country."
+        },
+        {
+          "description": "Congo"
+        },
+        {
+          "description": "In 2001, a small population ofgorillas was discovered in the Ebo Forest of western Cameroon, geographically intermediate between the subspecies gorilla and diehli Genetic analyses are neededto determine if the Ebo gorillas are a distinct taxonomic group. Two subspecies are recognized."
+        },
+        {
+          "description": "Subspecies and Distribution. G. g. gorillaSavage, 1847 — SCameroon SWCentralAfricanRepublic, EquatorialGuinea, Gabon, RepublicoftheCongo, andNAngola (Cabinda). G. g. diehli Matschie, 1904 — SE Nigeria and W Cameroon."
+        },
+        {
+          "description": "Food and Feeding. Western Gorillas feed predominantly on ripe succulent fruit and terrestrial herbaceous vegetation, mainly pith of Aframomum (Zingiberaceae) and shoots of Marantaceae. Whenfruit is scarce, large quantities ofterrestrial herbaceous vegetation are consumed, supplemented by protein-rich mature leaves and bark of Milicia (Moraceae) trees. Some populations of Western Lowland Gorilla specialize on aquatic herbs. Cross River Gorillas endure a longer than average dry season, during which their consumption offruit drops to only 1 - 24 % offecal weight. The only animal matter ingested deliberately is weaver ants (Qecophylla longinoda, Formicidae) or termites (Cubitermes, Termitidae), which Western Lowland Gorillas eat every day when available."
+        },
+        {
+          "description": "Gabon: Mpongwe."
+        },
+        {
+          "description": "Activity patterns. The Western Gorilla is diurnal and semi-terrestrial. They are more arboreal than generally presumed, and even adult males often climb to heights of 40 m in the canopy to feed. They are active for c. 12 hours / day and spend most of that time foraging and resting. They build nests to sleep in every night, usually on the ground but sometimes in trees."
+        },
+        {
+          "description": "Habitat. Western Lowland Gorillas inhabit a variety of lowland forest types, including openand closed-canopy moist mature, seasonally inundated, and disturbed and secondary (regenerating) forest, usually below 500 m elevation. In northern Republic of the Congo, they occur at high density in vast swamps. Gorillas in the Ebo forest range up to 1200 m. Cross River Gorillas are confined to forested hill country in a mountainous landscapeat elevations of 200 - 1900 m, in patches of lowland, submontane, and montane forest. Their populationis highly fragmented and scattered across c. 8000 km?, tenuously connected byforest corridors, much of which is under no for-mal protection. Cross River Gorillas persist in steep terrain that is difficult for hunters to reach."
+        },
+        {
+          "description": "Movements, Home range and Social organization. Daily movement of the Western Gorilla averages 2 km (1 - 1 - 5 - 2 km) as they travel widely in search of ripe fruit. Annual home range sizes are 10 - 6 - 15 - 4 km? *, and home ranges of neighboring groups overlap extensively. Western Gorillas are not territorial. On the rare occasions that two groups meet, impressive posturing by adult malesis likely, but mutual avoidance is the usual response. Western Gorillas live in cohesive, relatively stable groups composed of an adult male (silverback), multiple females, their offspring, and immature relatives. Median group size is ten weaned individuals, and the maximum observed is 22 individuals. Multimale groups are rare."
+        },
+        {
+          "description": "Breeding. Male Western Gorillas take 18 years to reach full maturity, and females take c. 10 years. Females usually transfer to another group when they reach maturity. Young males either becomesolitary or remain in their natal group iftolerated by the domi-nant male. The dominant male mates with all adult females in his group. In captivity, length of the menstrual cycle is ¢. 32 days and mean length of gestation is 257 days. There is no birth season. Infant mortality up to three years ofage is 22 - 65 %. Forthe first few years oflife, infants are highly dependent on their mothers’ care. Females carry their young ventrally in the early months; infants begin to travel dorsally within a few weeks. Infants suckle for 4 - 5 years, causing lactational amenorrhea in the mother. Offspring sharetheir mothers’ night nests until they are weanedorthe next sibling is born. Young Western Gorillas are weaned at 4 - 5 years ofage, from which point, they no longertravel on their mothers’ back. Interbirth intervals are 4 - 6 years. Western Gorillas appearto reproduce more slowly than Eastern Gorillas (G. beringer). Maximum life span is unknown but likely c ¢. 40 years."
+        },
+        {
+          "description": "Status and Conservation. CITES Appendix I. Classified as Critically Endangered on The IUCN Red List, along with both subspecies. Listed under Class A in the African Convention on the Conservation of Nature and Natural Resources. Gorillas are protected by national and international laws in all of their native countries, but law enforcement is generally weak. Western Lowland Gorillas total ¢. 140,000 - 160,000 individuals, perhaps two-thirds of which are in the northern Republic of the Congo. Important populations also remain in Gabon and south-eastern Cameroon. The population in Equatorial Guinea was recently assessed at a few thousand individuals. It is unlikely that Western Gorillas are still resident in the Mayombe region of DR Congo, but transient individuals may cross into DR Congo from Cabinda (Angola), where a few hundred Western Lowland Gorillas are thought to persist. The number of Cross River gorillas totals only 200 - 300 individuals, fewer than the “ Mountain Gorillas ” (G. beringei beringei) in the Virunga Volcanoes region, but distributed over an area 17 - 6 times larger. Cross River Gorillas are found at 10 - 11 localities in rugged highlands, where they have so far found refuge from hunters. Major threats to the survival of the Western Gorilla are intense poaching for bushmeat, habitat loss, and disease (notably Ebola haemorrhagic fever). Poaching of great apes is usually linked to the commercial bushmeat trade, which supplies bushmeat to cities and towns. There is strong cultural attachment to bushmeat in Central Africa, and this trade has become one of the principal threats to wildlife throughout Central Africa. As wildlife populations have been diminished, hunters move progressively further into remote areas, creating what is now known as the “ empty forest ” syndrome. Studies of poaching and this illegal trade have estimated that nine tons of bushmeat are extracted from an area of 50,000 km? in the Congo Basin every day, which is clearly unsustainable. Mechanized logging in the Western Gorilla’s range is usually selective, with relatively low levels of offtake and disturbance, so gorillas can survive if hunting is controlled. More detrimentalis infrastructure, such as logging roads that penetrate previously inaccessible forests. Slash-and-burn clearing of forest for small-scale agriculture is a threat in heavily populated areas. Numbers of Western Lowland Gorillas in Gabon were halved by poaching and a deadly strain of Ebola hemorrhagic fever between 1980 and 2000. The Ebola epidemic then moved into the Republic of the Congo and killed another 5000 gorillas. Ebola is still considered to be a high risk to gorillas and Chimpanzees (Pan troglodytes) in this region. The major international conservation organizations have programs throughout Central Africa and are working toward the long-term survival of Western Gorillas."
+        },
+        {
+          "description": "Descriptive notes. Head-body 103 - 107 cm (males); weight 145 - 191 kg (males) and 57 - 73 kg (females); standing height 138 - 180 cm (males) and 109 - 152 cm (females) The Western Gorilla displays extreme sexual dimorphism; males are about twice the size offemales. Ears are small and hidden in the hair. Teeth arerelatively small except for large incisors. With the exception ofthe face, ears, hands, and feet (which are naked and black), bodyis covered in coarse brown hair; brows are sparsely haired | Fully mature adult male Western Gorillas develop a series of secondary sexual characteristics: a pronouncedsagittal crest (a bonystructure on top of the cranium, to which massive jaw muscles areattached); large canine teeth; broad chest that becomes bare with age; broad shoulders; and hair on the saddlethat is replaced with short grayishwhite hairs, hence they are popularly referredto as “ silverbacks. ” Some male “ Western Lowland Gorillas ” (G. g. gorilla) have a rich chestnut-color crown and sagittal crest, which contrasts with the rest of the body. “ Cross River Gorillas ” (G. g. diehlr) differ from Western Lowland Gorillas both in the shapeofthe skull and their genetics."
+        }
+      ],
+      "vernacularNames": [
+        {
+          "vernacularName": "Gorilla"
+        },
+        {
+          "vernacularName": "gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Western Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Western Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Westlicher Gorilla",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Lowland Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Western Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorille de l'Ouest",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Gorila Occidental",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Western Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorille de I'Ouest",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Westlicher Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorila occidental",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Lowland Gorilla; Cross River Gorilla (diehli)",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Western Lowland Gorilla (gorilla)",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorilla",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "gorilla"
+        },
+        {
+          "vernacularName": "western gorilla"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "1": "Animalia",
+        "44": "Chordata",
+        "359": "Mammalia",
+        "798": "Primates",
+        "5483": "Hominidae",
+        "2436440": "Gorilla"
+      },
+      "class": "Mammalia"
+    },
+    {
+      "key": 176665104,
+      "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+      "nubKey": 4267318,
+      "parentKey": 212589342,
+      "parent": "Gorilla",
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "order": "PRIMATES",
+      "family": "HOMINIDAE",
+      "genus": "Gorilla",
+      "kingdomKey": 212580349,
+      "phylumKey": 212580395,
+      "classKey": 212587293,
+      "orderKey": 212589037,
+      "familyKey": 212589341,
+      "genusKey": 212589342,
+      "scientificName": "Gorilla gorilla ssp. gorilla (Savage, 1847)",
+      "canonicalName": "Gorilla gorilla gorilla",
+      "authorship": "(Savage, 1847)",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SUBSPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Western Lowland Gorilla",
+          "language": "eng"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "212580349": "ANIMALIA",
+        "212580395": "CHORDATA",
+        "212587293": "MAMMALIA",
+        "212589037": "PRIMATES",
+        "212589341": "HOMINIDAE",
+        "212589342": "Gorilla"
+      },
+      "class": "MAMMALIA"
+    },
+    {
+      "key": 176665100,
+      "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+      "nubKey": 2436441,
+      "parentKey": 212589342,
+      "parent": "Gorilla",
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "order": "PRIMATES",
+      "family": "HOMINIDAE",
+      "genus": "Gorilla",
+      "species": "Gorilla gorilla",
+      "kingdomKey": 212580349,
+      "phylumKey": 212580395,
+      "classKey": 212587293,
+      "orderKey": 212589037,
+      "familyKey": 212589341,
+      "genusKey": 212589342,
+      "speciesKey": 176665100,
+      "scientificName": "Gorilla gorilla (Savage, 1847)",
+      "canonicalName": "Gorilla gorilla",
+      "authorship": "(Savage, 1847)",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Westlicher Gorilla",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Lowland Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Western Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorille de l'Ouest",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Gorila Occidental",
+          "language": "spa"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "212580349": "ANIMALIA",
+        "212580395": "CHORDATA",
+        "212587293": "MAMMALIA",
+        "212589037": "PRIMATES",
+        "212589341": "HOMINIDAE",
+        "212589342": "Gorilla"
+      },
+      "class": "MAMMALIA"
+    },
+    {
+      "key": 4267321,
+      "nameKey": 16727171,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 4267321,
+      "parentKey": 2436441,
+      "parent": "Gorilla gorilla",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Gorilla",
+      "species": "Gorilla gorilla",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 359,
+      "orderKey": 798,
+      "familyKey": 5483,
+      "genusKey": 2436440,
+      "speciesKey": 2436441,
+      "scientificName": "Gorilla gorilla diehli Matschie, 1903",
+      "canonicalName": "Gorilla gorilla diehli",
+      "authorship": "Matschie, 1903",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SUBSPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "extinct": false,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Cross River Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cross River Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cross River gorilla"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "1": "Animalia",
+        "44": "Chordata",
+        "359": "Mammalia",
+        "798": "Primates",
+        "5483": "Hominidae",
+        "2436440": "Gorilla",
+        "2436441": "Gorilla gorilla"
+      },
+      "class": "Mammalia"
+    },
+    {
+      "key": 176665116,
+      "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+      "nubKey": 4267321,
+      "parentKey": 212589342,
+      "parent": "Gorilla",
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "order": "PRIMATES",
+      "family": "HOMINIDAE",
+      "genus": "Gorilla",
+      "kingdomKey": 212580349,
+      "phylumKey": 212580395,
+      "classKey": 212587293,
+      "orderKey": 212589037,
+      "familyKey": 212589341,
+      "genusKey": 212589342,
+      "scientificName": "Gorilla gorilla ssp. diehli Matschie, 1904",
+      "canonicalName": "Gorilla gorilla diehli",
+      "authorship": "Matschie, 1904",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SUBSPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Cross River Gorilla",
+          "language": "eng"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "212580349": "ANIMALIA",
+        "212580395": "CHORDATA",
+        "212587293": "MAMMALIA",
+        "212589037": "PRIMATES",
+        "212589341": "HOMINIDAE",
+        "212589342": "Gorilla"
+      },
+      "class": "MAMMALIA"
+    },
+    {
+      "key": 176665110,
+      "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+      "nubKey": 7262070,
+      "parentKey": 212589342,
+      "parent": "Gorilla",
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "order": "PRIMATES",
+      "family": "HOMINIDAE",
+      "genus": "Gorilla",
+      "species": "Gorilla beringei",
+      "kingdomKey": 212580349,
+      "phylumKey": 212580395,
+      "classKey": 212587293,
+      "orderKey": 212589037,
+      "familyKey": 212589341,
+      "genusKey": 212589342,
+      "speciesKey": 176665110,
+      "scientificName": "Gorilla beringei Matschie, 1903",
+      "canonicalName": "Gorilla beringei",
+      "authorship": "Matschie, 1903",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Östlicher Gorilla",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Eastern Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorille de l'Est",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Gorilla Oriental",
+          "language": "spa"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "212580349": "ANIMALIA",
+        "212580395": "CHORDATA",
+        "212587293": "MAMMALIA",
+        "212589037": "PRIMATES",
+        "212589341": "HOMINIDAE",
+        "212589342": "Gorilla"
+      },
+      "class": "MAMMALIA"
+    },
+    {
+      "key": 7262070,
+      "nameKey": 4811989,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 7262070,
+      "parentKey": 2436440,
+      "parent": "Gorilla",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Gorilla",
+      "species": "Gorilla beringei",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 359,
+      "orderKey": 798,
+      "familyKey": 5483,
+      "genusKey": 2436440,
+      "speciesKey": 7262070,
+      "scientificName": "Gorilla beringei Matschie, 1903",
+      "canonicalName": "Gorilla beringei",
+      "authorship": "Matschie, 1903",
+      "publishedIn": "Sber. Ges. naturf. Fr. Berlin p.257",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 3,
+      "numOccurrences": 0,
+      "extinct": false,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [
+        {
+          "description": "Habitat. “ Grauer’s Gorillas ” (G. b. graueri) occur at 600 - 2900 m above sea level in dense mature and secondary lowland, submontane, and montane forest and, where present, in bamboo forest (Cyperus, Cyperaceae), swamp, and peat bog. Mountain Gorillas are restricted to elevations above 1850 m in the Virunga Volcanoes (1400 m in Bwindi Impenetrable National Park) by human occupation of lower elevations. They range up to 3800 m. During the rainy season, they frequent bamboo forest. They also visit alpine and subalpine grassland on the volcanic peaks. “ Eastern Lowland Gorilla ” is a misnomer because there is considerable overlap in the elevational ranges of Grauer’s and Mountain gorillas."
+        },
+        {
+          "description": "Activity patterns. The Eastern Gorilla is diurnal and semi-terrestrial. After waking, they feed intensively and then alternate rest, traveling, and feeding until bedding down for the night. Mountain Gorillas spend 55 % of the day foraging, 34 % resting, 7 % travelling, and 4 % in other activities. Eastern Gorillas build nests in trees, but the majority of their nests are on the ground."
+        },
+        {
+          "description": "Movements, Home range and Social organization. The distance traveled daily by Eastern Gorillas varies with elevation. Fruit availability decreases with increasing elevation, and with less fruit in the diet, they range shorter distances. Grauer’s and “ Bwindi ” gorillas occupy 16 - 28 km ® annually. Groups of Mountain Gorilla in the Virunga Volcanoes use areas as small as 6 km ” but as large as 34 km ”. Eastern Gorillas are not territorial, and there is extensive overlap between the home ranges of different groups. Grauer’s gorillas move ¢. 1500 m / day, whereas Mountain Gorillas usually travel less than 600 m / day. Eastern Gorilla groups are polygynous or polygynandrous, with one or more adult silverback males, several females, their offspring, and immature relatives forming the core of relatively stable groups. Median group size is ten weaned individuals; maximum observed group size is 65 individuals. About 40 % of groups contain more than one adult male, some as many as nine. Infanticide of unweaned offspring sometimes occurs when an outsider male challenges a resident silverback. If the dominant male of a multimale group dies, another resident male is likely to take over leadership, assuring some continuity and preventing group disintegration and infanticide."
+        },
+        {
+          "description": "Breeding. Male Eastern Gorillas become “ blackbacks ™ at 8 - 12 years of age and are capable of reproducing. They are considered silverbacks at twelve years of age and reach their full adult size at 15 years. Female menarche occurs at 6 - 7 years of age, followed by a period of adolescent sterility. Female Eastern Gorillas emigrate upon reaching sexual maturity to join another group or a solitary male. Average age of first parturition is 9 - 9 years. Females have a menstrual cycle of ¢. 28 days and are proceptive for 1 - 4 days around the time of ovulation. In unimale groups, one male mates with all adult females. In multimale groups, females often mate with more than one male, but the dominant male is the partner in most copulations. Subordinate males sometimes copulate surreptitiously, but they are harassed by a dominant male if detected. There is no birth season. Gestation is ¢. 255 days. For the first few years oflife, infants are highly dependent on their mothers’ care and sleep in her nest at night. Females carry their young ventrally in the early months; infants start to travel dorsally within a few weeks of birth. Females experience lactational amenorrhea while suckling infants. Young are weaned at 3 - 4 years of age, from which point, they no longer travel on their mothers’ back. Females give birth every 3 — 4 years and generally produce 3 — 4 surviving offspring during their reproductive life span. Maximum life span is unknown, but it is certainly over 40 years."
+        },
+        {
+          "description": "Status and Conservation. CITES Appendix I. Classified as Endangered on The IUCN Red List, with the Mountain Gorilla classified as Critically Endangered and Grauer’s Gorilla as Endangered. Listed under Class A in the African Convention on the Conservation of Nature and Natural Resources. Although Eastern Gorillas are protected by national and international laws, both subspecies are threatened by illegal activities. Grauer’s Gorilla habitat is estimated to cover an area of 100,000 km? east of the Lualaba River and the Burundi-Rwanda-Uganda border. Surveys in the 1990 s estimated a total population of 8660 - 25,500 Grauer’s Gorillas in discrete areas of their expansive habitat. Their current status is poorly known because few surveys have been possible since the mid- 1990 s due to insecurity in eastern DR Congo. Local declines have been documented and the total population remaining is perhaps 2000 - 10,000 individuals. If more precise data were available, Grauer’s Gorilla would without doubt be reclassified as Critically Endangered. Mountain Gorillas are restricted to two refugia that have been cut off from forest at lower elevation by advancing agriculture. One population occupies 215 km? in the 330 km * Bwindi Impenetrable National Park in south-western Uganda, and its numbers are stable. The other population occupies ¢. 375 km? in the 455 km * Virunga Volcanoes region and its numbers are increasing — nonetheless a total of only ¢. 780 individuals remain in this small and vulnerable region. The main threats to Eastern Gorillas are poaching, habitat loss, and civil war. Capture of live orphans is a secondary threat (after the mother has been killed and eaten), except where infant Mountain Gorillas are the principle target, fulfilling the demands ofa fictitious, illegal international market. DR Congo has a legal framework for managing national parks and wildlife, but has difficulty applying its laws, and political will is limited. Underlying this is the difficult sociopolitical context: breakdown in law and order during years of conflict, combined with poverty and economic insecurity, which exacerbate difficulties of enforcing the law within the Grauer’s Gorilla’s range. Armed conflict and collapse of law and order in DR Congo have caused a significant rise in the illegal circulation of military weapons and ammunition. Formertraditional hunters now have access to guns, notably the AK 47, and commercial trade in bushmeat has increased with the spread of firearms, often supplied by government soldiers and rebel militia. Illegal miners are decimating the main stronghold ofthe Grauer’s Gorilla. Several international conservation organizations have been working in difficult circumstances for decades to support national park authorities and try to secure the Eastern Gorillas’ survival."
+        },
+        {
+          "description": "Descriptive notes. Head-body 101 - 120 cm (males); weight 120 - 209 kg (males) and c. 60 - 98 kg (females); standing height 159 - 196 cm (males) and 130 - 150 cm (females). The Eastern Gorilla displays extreme sexual dimorphism; males can be twice the size of females. It is somewhat larger than the Western Gorilla (Gorilla gorilla) and is therefore the largest of all primates. Eastern Gorillas, the “ Mountain Gorilla ” (G. b. beringei) in particular, have shorter arms and are stockier than Western Gorillas. Head is large, and ears are small and hidden in the hair. Teeth are relatively small except for large incisors. Mountain Gorillas have large jaws and a wider facial skeleton than other Gorilla taxa. With the exception of face, ears, hands, and feet (which are naked and black), body is covered in coarse black hair. Hair of the Mountain Gorilla is thick and long, especially on the arms of adult males. Fully mature adult males develop a pronounced sagittal crest and have large canine teeth; broad chest and shoulders; a bare chest with age; and hair on the back that is replaced with short grayish-white hairs, spreading to the thighs later in life; hence, they are popularly referred to as “ silverbacks. ”"
+        },
+        {
+          "description": "Gorillas of the Bwindi Impenetrable National Park in south-western Uganda are currently listed as the subspecies beringei. The mtDNA of this population does not differ from beringe: in the Virungas, but they look more like graueri. Further research is needed to clarify their taxonomy. Two subspecies are recognized."
+        },
+        {
+          "description": "Subspecies and Distribution. G. b. beringe: Matschie, 1903 — VirungaVolcanoesRegioninEDRCongo, SWUganda, andNWRwanda, alsoinBwindiImpenetrableNationalParkinSWUganda. G. b. graueri Matschie, 1914 — E DR Congo, inhabiting three major regions (Kahuzi-Biéga-Kasese, [tombwe Massif, and Maiko-Tayna)."
+        },
+        {
+          "description": "Food and Feeding. Diet of the Eastern Gorilla varies greatly with elevation and its effect on food availability. Grauer’s Gorillas have a more diverse and seasonal diet at lower elevations. Grauer’s Gorillas in lowland forest and Bwindi gorillas are more frugivorous: fruit forms ¢. 25 % of their total diet. Other dietary items include leaves, pith, bark, vines, herbs, and ants. Mountain Gorillas in the Virunga Volcanoes Region are largely herbivorous and feed on stems, pith, leaves, bark, and occasionally ants. Their favored food items are wild celery, thistles, nettles, bedstraw, wood, and roots. Both Eastern Gorilla subspecies feed almost exclusively on young bamboo shoots when they are in season."
+        },
+        {
+          "description": "Rwanda, Mount Sabyinyo."
+        }
+      ],
+      "vernacularNames": [
+        {
+          "vernacularName": "Östlicher Gorilla",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Eastern Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorille de l'Est",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Gorilla Oriental",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Eastern Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Eastern Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorille de I'Est",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Ostlicher Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorila oriental",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Eastern Lowland / Grauer’s Gorilla (graueri)",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Mountain Gorilla (beringei)",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Eastern Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "mountain gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "eastern gorilla"
+        },
+        {
+          "vernacularName": "gorilla"
+        },
+        {
+          "vernacularName": "highland gorilla"
+        },
+        {
+          "vernacularName": "mountain gorilla"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "1": "Animalia",
+        "44": "Chordata",
+        "359": "Mammalia",
+        "798": "Primates",
+        "5483": "Hominidae",
+        "2436440": "Gorilla"
+      },
+      "class": "Mammalia"
+    },
+    {
+      "key": 4267322,
+      "nameKey": 16727130,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 4267322,
+      "parentKey": 7262070,
+      "parent": "Gorilla beringei",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Gorilla",
+      "species": "Gorilla beringei",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 359,
+      "orderKey": 798,
+      "familyKey": 5483,
+      "genusKey": 2436440,
+      "speciesKey": 7262070,
+      "scientificName": "Gorilla beringei graueri Matschie, 1914",
+      "canonicalName": "Gorilla beringei graueri",
+      "authorship": "Matschie, 1914",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SUBSPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "extinct": false,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Grauer's Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Grauer's Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "eastern lowland gorilla"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "1": "Animalia",
+        "44": "Chordata",
+        "359": "Mammalia",
+        "798": "Primates",
+        "5483": "Hominidae",
+        "2436440": "Gorilla",
+        "7262070": "Gorilla beringei"
+      },
+      "class": "Mammalia"
+    },
+    {
+      "key": 176665106,
+      "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+      "nubKey": 4267322,
+      "parentKey": 212589342,
+      "parent": "Gorilla",
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "order": "PRIMATES",
+      "family": "HOMINIDAE",
+      "genus": "Gorilla",
+      "kingdomKey": 212580349,
+      "phylumKey": 212580395,
+      "classKey": 212587293,
+      "orderKey": 212589037,
+      "familyKey": 212589341,
+      "genusKey": 212589342,
+      "scientificName": "Gorilla beringei ssp. graueri Matschie, 1914",
+      "canonicalName": "Gorilla beringei graueri",
+      "authorship": "Matschie, 1914",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SUBSPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Grauer's Gorilla",
+          "language": "eng"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "212580349": "ANIMALIA",
+        "212580395": "CHORDATA",
+        "212587293": "MAMMALIA",
+        "212589037": "PRIMATES",
+        "212589341": "HOMINIDAE",
+        "212589342": "Gorilla"
+      },
+      "class": "MAMMALIA"
+    },
+    {
+      "key": 11374086,
+      "nameKey": 59184989,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+      "nubKey": 11374086,
+      "parentKey": 2866802,
+      "parent": "Pseudohydrosme",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Pseudohydrosme",
+      "species": "Pseudohydrosme ebo",
+      "kingdomKey": 6,
+      "phylumKey": 7707728,
+      "classKey": 196,
+      "orderKey": 551,
+      "familyKey": 6979,
+      "genusKey": 2866802,
+      "speciesKey": 11374086,
+      "scientificName": "Pseudohydrosme ebo Cheek",
+      "canonicalName": "Pseudohydrosme ebo",
+      "authorship": "Cheek",
+      "publishedIn": "Cheek, Martin, Tchiengué, Barthélemy, van der Burgt, Xander (2021): Taxonomic revision of the threatened African genus Pseudohydrosme Engl. (Araceae), with P. ebo, a new, critically endangered species from Ebo, Cameroon. PeerJ 9: 1-32, DOI: 10.7717/peerj.10689, URL: http://dx.doi.org/10.7717/peerj.10689",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [
+        {
+          "description": "Phenology: flowering in September and early October; leaves early December; fruiting unknown."
+        },
+        {
+          "description": "Conservation: Pseudohydrosme ebo is known from only one location, with three sites along a section of valley 1.3 km long and only 50 – 100 mature individuals in total have been seen by the collectors (second and third authors). These sites are along former logging roads which have reverted to forest (X. Van der Burgt, 2019, personal observation) as well as intact forest. In the fourteen years since 2006, botanical surveys have been made almost annually, at different seasons, over many parts of the formerly proposed National Park of Ebo. About 3000 botanical herbarium specimens have been collected, but despite the species being so spectacular in flower, with individual inflorescences lasting potentially two weeks (if they prove to be similar in phenology to those of P. gabunensis), this species has been seen nowhere else in the c. 2000 km 2 of the Ebo Forest. However, much of this area has not been surveyed during the flowering season of the species, or not surveyed at all for plants. While it is likely that the species will be found at additional sites, there is no doubt that it is genuinely range restricted. Botanical surveys for conservation management in forest areas neighbouring Ebo resulting in thousands of specimens being collected and identified have failed to find any specimens of Pseudohydrosme (Cheek et al., 1996; Cable & Cheek, 1998; Cheek, Onana & Pollard, 2000; Harvey et al., 2004; Cheek et al., 2004; Cheek, Harvey & Onana, 2010; Harvey, Tchiengue & Cheek, 2010). It is possible that the species is unique to Ebo and truly localised. The area of occupation of Pseudohydrosme ebo is estimated as 4 km 2 using the IUCN preferred cell-size. The extent of occurrence is the same area. In February 2020 it was discovered that moves were in place to convert the forest into two logging concessions (e. g. https: // www. globalwildlife. org / blog / ebo-forest-a-stronghold-for-cameroons-wildlife / and https: // blog. resourceshark. com / cameroon-approves-logging-concession-that-will-destroy-ebo-forest-gorilla-habitat / both accessed 19 September 2020). This would result in logging tracks that would allow access throughout the forest allowing poachers of rare collectable plants such as Pseudohydrosme, and timber extraction would open up the canopy and remove the intact habitat in which Pseudohydrosme grows. Additionally, slash and burn agriculture often follows logging trails and would negatively impact the populations of this species. Fortunately the logging concession was suspended due to representations to the President of Cameroon on the global importance of the biodiversity of Ebo (https: // www. businesswire. com / news / home / 20200817005135 / en / Relief-in-the-Forest-Cameroonian-Government-Backtracks-on-the-Ebo-Forest accessed 19 September 2020). However, the forest habitat of this species remains unprotected and threats of logging and conversion of the habitat to plantations remain. Pseudohydrosme ebo is therefore here assessed, on the basis of the range size given and threats stated as CR B 1 + 2 ab (iii), that is Critically Endangered."
+        },
+        {
+          "description": "Figs. 1 – 3, 6 and 7."
+        },
+        {
+          "description": "Terrestrial herb, to 1.55 m tall. Rhizome cylindric, c. 3 cm diam. obliquely erect to almost parallel to substrate surface, only upper part exposed, surface with transverse ridges (leaf scars) about 2 mm deep, 2 mm apart. Roots adventitious, thick, fleshy, c. 5 mm diam., scattered along length of rhizome, asexual reproduction not detected. Leaf to 1.55 m tall, petiole terete, to 2 cm. diameter at base, green, inconspicuously spotted yellow, mature plants with minute, patent, extremely sparse prickles 0.5 mm long. Blade of youngest seedlings sagittate-elliptic, 5 × 2.5 cm, apex obtuse, basal sinus 1.5 × 1.5 cm, petiole 6 – 7 cm long. Older seedlings, in successive years with leaves developing first slits and then divisions, becoming triangular in outline with a broad basal sinus. Blade of mature leaves dracontoid, primary division 35 – 40 × 38 – 43 cm, pinnatisect, lobes 5 – 8, dimorphic, larger, mainly distal lobes oblong 12.5 – 22 × 3.8 – 6.5 cm, apex acuminate or truncate-bifid (biacuminate), acumen 0.8 – 1.5 cm long, smaller, mainly proximal lobes ovate c. 8 × 3.5 cm; lateral veins 6 – 11 conspicuous on abaxial surface, on each side of the midrib, uniting to form a regular looping submarginal vein 3 – 6 mm from the margin, higher order veins reticulate. Inflorescence: Cataphylls 4, phyllotaxy spiral, light brown, with light green spots, membranous, successively increasing in size from proximal to distal, the outermost triangular-broadly ovate, amplexicaul 3 × 4 cm, the third in succession narrowly lanceolate-oblong, 12 × 2 cm, the fourth 18 – 19 × 1.5 – 4 cm; peduncle 3.5 – 4.5 × 0.6 – 0.7 cm, with minute, patent, extremely sparse prickles 0.5 mm long, colour as petiole. Spathe 24 – 30 (– 34.5) × 8 cm long basal 1 / 2 – 3 / 4 subcylindric, convolute, funnel-shaped, 1.8 – 4 cm wide at 2 cm above the peduncle, 6 – 8 cm wide at 8 cm above the peduncle, and 8 – 9 cm wide at 15 cm above the peduncle, the distal part (limb), half to one third of the total spathe length, flaring widely and curving forward, hood-like, shielding the spadix, the apex with a triangular acumen 3 – 4 × 1 cm; outer surface of both tube and limb dull white, with pale brown-red ribs running longitudinally along veins from base of tube to mouth of limb; inner surface of spathe light reddish brown, with wide pale green veins, gradually becoming slightly darker along the midline; mouth facing horizontally, transversely elliptic, 8 – 10 cm high, 20 – 25 cm wide, margin entire. Spadix sessile, cylindrical, 50 – 85 mm long, 10 – 18 mm diam. Female zone 24 mm long, 15 – 18 mm wide, female flowers sparsely scattered, c. 30, laxly arranged, covering only about half the surface of the spadix axis, the axis visible between the flowers, sometimes not contiguous with the male zone, the axis then naked for up to 10 mm. Male zone 37 – 55 mm long, 10 – 14 mm wide, apex rounded, completely covered in densely arranged male flowers, sterile appendix absent. Male flowers with 2 – 5 stamens, sometimes paired or in groups of 3 – 5, stamens free, sessile, prismatic, 5 mm long, isodiametric in plan-view, 5 – 6 faceted, (1.5 –) 2 mm diam., apex convex, minutely papillate; anther thecae lateral, tetrasporangiate (Fig. 6 F), oblong-elliptic, running the length of the stamen, with apical pore (Fig. 6 E). Female flowers with ovary globose, 4 mm diam., 3 - locular (Fig. 6 I), very rarely 2 - locular, style 1 – 1.5 mm long, 1 mm diam., stigma pale yellow, 0.5 mm thick, 2 – 2.25 mm wide, strongly 3 - lobed (Fig. 7 E), lobes with a narrow midline groove, apex rounded. Berry and seed not seen."
+        },
+        {
+          "description": "Notes: Pseudohydrosme ebo came to the attention of the first author in late Aug. 2018 on seeing van der Burgt 1888, collected in 2015. Plans were made to revisit the collection site at the next available opportunity, in December 2019, when leaves were found by the third author (van der Burgt 2377), but unfortunately fruits were not found. At the same time a second site was discovered 1.3 km distant from the site found in 2015. In February 2020 van der Burgt found at Kew an overlooked, additional specimen, Morgan 25, which is the earliest known record of the species, dating from 2010, and since it has multiple duplicates, has been selected as type of the new species. The associated collection data previously mislaid was rediscovered in May 2020. Alvarez with van der Burgt, and Ngansop, discovered in December 2019 seedlings of the new species, at three different stages, preserved as Van der Burgt 2377 sheet 1 / 4 (see Fig 7). Clearly the species at this site is reproducing itself. Associated photographs also show plants of different ages. Abwe & Morgan (2008) and Cheek et al. (2018 b) characterise the Ebo forest, and give overviews of habitats, species and importance for conservation. Fifty-two globally threatened plant species are currently listed from Ebo on the IUCN Red List website and the number is set to rise rapidly. The discovery of a new species to science at the Ebo forest is not unusual. Since numerous new species have been published from Ebo in recent years. Examples of other species that, like Pseudohydrosme ebo appear to be strictly endemic to Ebo on current evidence are: Ardisia ebo Cheek (Cheek & Xanthos, 2012), Crateranthus cameroonensis Cheek and Prance (Prance & Jongkind, 2015), Gilbertiodendron ebo Burgt and Mackinder (Van der Burgt et al., 2015), Inversodicraea ebo Cheek (Cheek et al., 2017), Kupeantha ebo M. Alvarez and Cheek (Cheek et al., 2018 a), Palisota ebo Cheek (Cheek et al., 2018 b). Further species described from Ebo have also been found further west, in the Cameroon Highlands, particularly at Mt Kupe and the Bakossi Mts (Cheek et al., 2004). Examples are Myrianthus fosi Cheek (Cheek & Osborne, 2010), Salacia nigra Cheek (Gosline, Cheek & Kami, 2014), Talbotiella ebo Mackinder and Wieringa (Mackinder, Wieringa & Van der Burgt, 2010) Additionally, several species formerly thought endemic to Mt Kupe have subsequently been found at Ebo, for example Coffea montekupensis Stoff. (Stoffelen et al., 1997), Costus kupensis Maas and H. Maas (Van de Kamer et al., 2016), Microcos magnifica Cheek (Cheek, 2017), and Uvariopsis submontana Kenfack, Gosline and Gereau (Kenfack et al., 2003). Therefore, it is possible that Pseudohydrosme ebo might yet also be found in the Cameroon highlands, for example at Mt Kupe, further extending westward the known range of the genus. However, this is thought to be only a relatively small possibility given the spectacular nature of this plant, and the high level of survey effort at for example Mt Kupe: if it occurred there it is highly likely that it would have been recorded already. Additional characters separating Pseudohydrosme ebo from P. gabunensis are show in Table 1. It is to be hoped that further studies of live plants of P. ebo will be possible to determine if, like P. gabunensis it also reproduces asexually from the root tips. The biogeography of the Cameroonian Pseudohydrosme ebo is very different from that of the two Gabonese species of the genus growing c. 450 km to the South. The Gabonese species grow on recently deposited, sandy coastal soils. Although the Gabonese species also experience a wet season of about 3 m of rainfall per annum, it is differently distributed: the dry season in Libreville occurs from June to September inclusive and is colder than the wet season. In contrast at Ebo the geology at the Pseudohydrosme location is ancient, highly weathered basement complex, with some ferralitic areas in foothill areas which are inland, c. 100 km from the coast. The wet season (successive months with cumulative rainfall> 100 mm) is almost the inverse of at Libreville, falling between March and November and is colder than the dry season (Abwe & Morgan, 2008). In addition, the affinities of Ebo as indicated by shared plant species, seems to be with other parts of the Cross-Sanaga biogeographic area, the Cameroon Highlands, rather than with Gabon (see above)."
+        },
+        {
+          "description": "Distribution and ecology: Cameroon, Littoral Region, known only from three sites at one location in the Ebo forest near Yabassi-Yingui, in late secondary and intact, undisturbed lowland evergreen forest on ancient basement complex geology, rainfall c. 3 m p. a., drier season October-March; 300 – 400 m alt."
+        },
+        {
+          "description": "Etymology: named as a noun in apposition for the forest of Ebo, in Cameroon’ s Littoral Region, Yabassi-Yingui Prefecture, to which this spectacular species is globally restricted on current evidence."
+        },
+        {
+          "description": "Additional specimens: Cameroon, Littoral Region, Ebo proposed National Park, fl. 8 Oct. 2015 van der Burgt 1888 (K! YA!); ibid., st. (leaves) 9 Dec. 2019, van der Burgt 2377 (K!, MO!, P!, WAG!, YA!)."
+        },
+        {
+          "description": "Differing from Pseudohydrosme gabunensis Engl. in the ovaries 3 - locular, the stigma conspicuously 3 - lobed, very rarely 2 - locular / lobed (vs. usually 2 - locular, 2 - lobed, rarely 3 - locular / lobed), the female zone of the spadix only sparsely covered in flowers, the spadix axis visible between the flowers (vs. completely covered in flowers), the spathe at anthesis 24 – 30 (– 34.5) cm long, the outer surface dull white with longitudinal brown stripes, inner surface light reddish brown with wide pale green veins (vs. (30 –) 40 – 55 (- 70) cm long, uniformly white, green or yellow on both surfaces, inner surface bicoloured, the mid-limb area dark purple, sharply demarcated from the marginal white / yellow coloured area)."
+        },
+        {
+          "description": "Type: B. J. Morgan 25 (holotype K!; isotypes B! MO! YA!), Cameroon, Littoral Region, Yabassi-Yingui, Ebo proposed National Park, fl. September 2010."
+        },
+        {
+          "description": "Local names and uses: none are known."
+        }
+      ],
+      "vernacularNames": [],
+      "synonym": false,
+      "higherClassificationMap": {
+        "6": "Plantae",
+        "196": "Liliopsida",
+        "551": "Alismatales",
+        "6979": "Araceae",
+        "2866802": "Pseudohydrosme",
+        "7707728": "Tracheophyta"
+      },
+      "class": "Liliopsida"
+    }
+  ],
+  "facets": []
+}
