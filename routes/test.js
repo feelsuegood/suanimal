@@ -10,7 +10,9 @@ testRouter.get("/", async (req, res, next) => {
   try {
     // Get animal name and threat from GBIF API
     const { name } = req.query;
-    const gbifAPIUrl = `https://api.gbif.org/v1/species/search?q=${name}&threat=CRITICALLY_ENDANGERED`;
+    // change threat to req.query or req.body or req.params
+    const threat = "CRITICALLY_ENDANGERED";
+    const gbifAPIUrl = `https://api.gbif.org/v1/species/search?q=${name}&threat=${threat}`;
     const gbifResponse = await fetch(gbifAPIUrl);
 
     if (!gbifResponse.ok) {
@@ -49,7 +51,11 @@ testRouter.get("/", async (req, res, next) => {
     }));
 
     // Data fetch test
-    console.log(nameData, threatData, photoData);
+    console.log(
+      nameData.slice(0, 3),
+      threatData.slice(0, 3),
+      photoData.slice(0, 3)
+    );
 
     // Lastly render test page
     res.render("test", { threatData, nameData, photoData });
