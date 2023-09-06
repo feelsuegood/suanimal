@@ -40,8 +40,4 @@ app.use((err, req, res, next) => {
   res.render("error");
 });
 
-app.listen(() =>
-  console.log(`server is running at http://localhost:${process.env.PORT}`)
-);
-
 export default app;
