@@ -7,6 +7,7 @@ dotenv.config();
 /* GET home page. */
 indexRouter.get("/", (req, res) => {
   const title = "Welcome to Suanimal";
+  console.log("hi");
   res.render("index", { title });
 });
 
