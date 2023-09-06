@@ -1,5 +1,6 @@
 <h1>The Endangered Animals List </h1>
-{{#each nameData}}
+{{!-- fetch all data --}}
+{{!-- {{#each nameData}}
 <p>{{this.name}}</p>
 {{/each}}
 {{#each threatData}}
@@ -8,4 +9,10 @@
 {{#each photoData}}
  <a href={{this.url}}>
     <img src={{this.image}} alt={{this.title}} />
-    {{/each}}
+    {{/each}} --}}
+
+{{!-- fetch 1 data --}}
+<p>{{nameData.[0].name}}</p>
+<p>{{threatData.[0].threat}}</p>
+ <a href={{photoData.[0].url}}>
+    <img src={{photoData.[0].image}} alt={{photoData.[0].title}} />
