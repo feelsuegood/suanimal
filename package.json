@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "start": "nodemon --exec babel-node ./src/bin/www.js",
+    "test": "node src/build/bin/www.js",
     "dev": "nodemon",
-    "build": "--exec babel-cli src -d build",
-    "test": "node build/bin/www.js"
+    "build": "babel src -d src/build"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

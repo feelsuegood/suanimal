@@ -1,0 +1,12 @@
+.env
+.gitignore
+.prettierignore
+docker-compose.yml
+Dockerfile-old
+notes.md
+package-future.json
+test-search-api.json
+.dockerignore
+.dockerenv
+.DS_Store
+Dockerfile

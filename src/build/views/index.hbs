@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    {{!-- {{#each css}}
+        <link rel="stylesheet" href="/css/{{this}}">
+    {{/each}} --}}
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+  </head>
+  <body>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Suanimal</h1>
+      <p class="welcome-header__text">
+        A lot of animals is endangered. Please save them with Sanimal.
+      </p>
+    </header>
+{{!-- search an endangered animal by name --}}
+    <form action="test" method="get" id="search-form">
+      <input
+        name="name"
+        required
+        type="text"
+        placeholder="Animal name"
+      />
+      {{!-- <input name="password" type="password" placeholder="Password" /> --}}
+      <input type="submit" value="Search" />
+      <a href="#">Find a way to help animals</a>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/90b0d86629.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

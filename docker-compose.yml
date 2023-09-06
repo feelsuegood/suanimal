@@ -1,0 +1,13 @@
+services:
+  suanimal:
+    build: .
+    volumes:
+      - "./:/src"
+    ports:
+      - "8000:3000"
+    environment:
+      - FLICKR_API_KEY=decff4853061252bb473bc2e3fa81d79
+    command:
+      - "sh"
+      - "-c"
+      - "npm run dev && npm run build && npm run test"
