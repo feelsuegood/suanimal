@@ -1,0 +1,865 @@
+{
+  "offset": 0,
+  "limit": 20,
+  "endOfRecords": true,
+  "count": 11,
+  "results": [
+    {
+      "key": 4267318,
+      "nameKey": 4812117,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 4267318,
+      "parentKey": 2436441,
+      "parent": "Gorilla gorilla",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Gorilla",
+      "species": "Gorilla gorilla",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 359,
+      "orderKey": 798,
+      "familyKey": 5483,
+      "genusKey": 2436440,
+      "speciesKey": 2436441,
+      "scientificName": "Gorilla gorilla gorilla",
+      "canonicalName": "Gorilla gorilla gorilla",
+      "authorship": "(Savage & Wyman, 1847) ",
+      "publishedIn": "Boston J. Nat. Hist. vol.5 p.417",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SUBSPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "extinct": false,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Western Lowland Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Western Lowland Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "western lowland gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "lowland gorilla"
+        },
+        {
+          "vernacularName": "western lowland gorilla"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "1": "Animalia",
+        "44": "Chordata",
+        "359": "Mammalia",
+        "798": "Primates",
+        "5483": "Hominidae",
+        "2436440": "Gorilla",
+        "2436441": "Gorilla gorilla"
+      },
+      "class": "Mammalia"
+    },
+    {
+      "key": 2436441,
+      "nameKey": 4812065,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 2436441,
+      "parentKey": 2436440,
+      "parent": "Gorilla",
+      "basionymKey": 7444103,
+      "basionym": "Troglodytes gorilla Savage, 1847",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Gorilla",
+      "species": "Gorilla gorilla",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 359,
+      "orderKey": 798,
+      "familyKey": 5483,
+      "genusKey": 2436440,
+      "speciesKey": 2436441,
+      "scientificName": "Gorilla gorilla (Savage, 1847)",
+      "canonicalName": "Gorilla gorilla",
+      "authorship": "(Savage, 1847) ",
+      "publishedIn": "Boston J. Nat. Hist. vol.5 p.417",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 3,
+      "numOccurrences": 0,
+      "extinct": false,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [
+        {
+          "description": "STATUS: CITES - Appendix I; U. S. ESA - Endangered; IUCN - Endangered as G. g. berengei and G. g. graueri, otherwise Vulnerable."
+        },
+        {
+          "description": "DISTRIBUTION: SE Nigeria, Cameroon, Rio Muni (Equatorial Guinea), Congo Republic, SW Central African Republic, Gabon, N and E Zaire, SW Uganda, N Rwanda."
+        },
+        {
+          "description": "TYPE LOCALITY: Gabon, Gabon Estuary, Mpongwe country."
+        },
+        {
+          "description": "PROTECTED STATUS: CITES - Appendix I as Pongidae and U. S. ESA - Endangered as G. gorilla."
+        },
+        {
+          "description": "DISTRIBUTION: S. E. Nigeria; Cameroun; Rio Muni; Congo Republic; Gabon; N. and E. Zaire; S. W. Uganda; N. Rwanda."
+        },
+        {
+          "description": "TYPE LOCALITY: Gabon, Gabon Estuary, Mpongwe country."
+        },
+        {
+          "description": "Congo"
+        },
+        {
+          "description": "In 2001, a small population ofgorillas was discovered in the Ebo Forest of western Cameroon, geographically intermediate between the subspecies gorilla and diehli Genetic analyses are neededto determine if the Ebo gorillas are a distinct taxonomic group. Two subspecies are recognized."
+        },
+        {
+          "description": "Subspecies and Distribution. G. g. gorillaSavage, 1847 — SCameroon SWCentralAfricanRepublic, EquatorialGuinea, Gabon, RepublicoftheCongo, andNAngola (Cabinda). G. g. diehli Matschie, 1904 — SE Nigeria and W Cameroon."
+        },
+        {
+          "description": "Food and Feeding. Western Gorillas feed predominantly on ripe succulent fruit and terrestrial herbaceous vegetation, mainly pith of Aframomum (Zingiberaceae) and shoots of Marantaceae. Whenfruit is scarce, large quantities ofterrestrial herbaceous vegetation are consumed, supplemented by protein-rich mature leaves and bark of Milicia (Moraceae) trees. Some populations of Western Lowland Gorilla specialize on aquatic herbs. Cross River Gorillas endure a longer than average dry season, during which their consumption offruit drops to only 1 - 24 % offecal weight. The only animal matter ingested deliberately is weaver ants (Qecophylla longinoda, Formicidae) or termites (Cubitermes, Termitidae), which Western Lowland Gorillas eat every day when available."
+        },
+        {
+          "description": "Gabon: Mpongwe."
+        },
+        {
+          "description": "Activity patterns. The Western Gorilla is diurnal and semi-terrestrial. They are more arboreal than generally presumed, and even adult males often climb to heights of 40 m in the canopy to feed. They are active for c. 12 hours / day and spend most of that time foraging and resting. They build nests to sleep in every night, usually on the ground but sometimes in trees."
+        },
+        {
+          "description": "Habitat. Western Lowland Gorillas inhabit a variety of lowland forest types, including openand closed-canopy moist mature, seasonally inundated, and disturbed and secondary (regenerating) forest, usually below 500 m elevation. In northern Republic of the Congo, they occur at high density in vast swamps. Gorillas in the Ebo forest range up to 1200 m. Cross River Gorillas are confined to forested hill country in a mountainous landscapeat elevations of 200 - 1900 m, in patches of lowland, submontane, and montane forest. Their populationis highly fragmented and scattered across c. 8000 km?, tenuously connected byforest corridors, much of which is under no for-mal protection. Cross River Gorillas persist in steep terrain that is difficult for hunters to reach."
+        },
+        {
+          "description": "Movements, Home range and Social organization. Daily movement of the Western Gorilla averages 2 km (1 - 1 - 5 - 2 km) as they travel widely in search of ripe fruit. Annual home range sizes are 10 - 6 - 15 - 4 km? *, and home ranges of neighboring groups overlap extensively. Western Gorillas are not territorial. On the rare occasions that two groups meet, impressive posturing by adult malesis likely, but mutual avoidance is the usual response. Western Gorillas live in cohesive, relatively stable groups composed of an adult male (silverback), multiple females, their offspring, and immature relatives. Median group size is ten weaned individuals, and the maximum observed is 22 individuals. Multimale groups are rare."
+        },
+        {
+          "description": "Breeding. Male Western Gorillas take 18 years to reach full maturity, and females take c. 10 years. Females usually transfer to another group when they reach maturity. Young males either becomesolitary or remain in their natal group iftolerated by the domi-nant male. The dominant male mates with all adult females in his group. In captivity, length of the menstrual cycle is ¢. 32 days and mean length of gestation is 257 days. There is no birth season. Infant mortality up to three years ofage is 22 - 65 %. Forthe first few years oflife, infants are highly dependent on their mothers’ care. Females carry their young ventrally in the early months; infants begin to travel dorsally within a few weeks. Infants suckle for 4 - 5 years, causing lactational amenorrhea in the mother. Offspring sharetheir mothers’ night nests until they are weanedorthe next sibling is born. Young Western Gorillas are weaned at 4 - 5 years ofage, from which point, they no longertravel on their mothers’ back. Interbirth intervals are 4 - 6 years. Western Gorillas appearto reproduce more slowly than Eastern Gorillas (G. beringer). Maximum life span is unknown but likely c ¢. 40 years."
+        },
+        {
+          "description": "Status and Conservation. CITES Appendix I. Classified as Critically Endangered on The IUCN Red List, along with both subspecies. Listed under Class A in the African Convention on the Conservation of Nature and Natural Resources. Gorillas are protected by national and international laws in all of their native countries, but law enforcement is generally weak. Western Lowland Gorillas total ¢. 140,000 - 160,000 individuals, perhaps two-thirds of which are in the northern Republic of the Congo. Important populations also remain in Gabon and south-eastern Cameroon. The population in Equatorial Guinea was recently assessed at a few thousand individuals. It is unlikely that Western Gorillas are still resident in the Mayombe region of DR Congo, but transient individuals may cross into DR Congo from Cabinda (Angola), where a few hundred Western Lowland Gorillas are thought to persist. The number of Cross River gorillas totals only 200 - 300 individuals, fewer than the “ Mountain Gorillas ” (G. beringei beringei) in the Virunga Volcanoes region, but distributed over an area 17 - 6 times larger. Cross River Gorillas are found at 10 - 11 localities in rugged highlands, where they have so far found refuge from hunters. Major threats to the survival of the Western Gorilla are intense poaching for bushmeat, habitat loss, and disease (notably Ebola haemorrhagic fever). Poaching of great apes is usually linked to the commercial bushmeat trade, which supplies bushmeat to cities and towns. There is strong cultural attachment to bushmeat in Central Africa, and this trade has become one of the principal threats to wildlife throughout Central Africa. As wildlife populations have been diminished, hunters move progressively further into remote areas, creating what is now known as the “ empty forest ” syndrome. Studies of poaching and this illegal trade have estimated that nine tons of bushmeat are extracted from an area of 50,000 km? in the Congo Basin every day, which is clearly unsustainable. Mechanized logging in the Western Gorilla’s range is usually selective, with relatively low levels of offtake and disturbance, so gorillas can survive if hunting is controlled. More detrimentalis infrastructure, such as logging roads that penetrate previously inaccessible forests. Slash-and-burn clearing of forest for small-scale agriculture is a threat in heavily populated areas. Numbers of Western Lowland Gorillas in Gabon were halved by poaching and a deadly strain of Ebola hemorrhagic fever between 1980 and 2000. The Ebola epidemic then moved into the Republic of the Congo and killed another 5000 gorillas. Ebola is still considered to be a high risk to gorillas and Chimpanzees (Pan troglodytes) in this region. The major international conservation organizations have programs throughout Central Africa and are working toward the long-term survival of Western Gorillas."
+        },
+        {
+          "description": "Descriptive notes. Head-body 103 - 107 cm (males); weight 145 - 191 kg (males) and 57 - 73 kg (females); standing height 138 - 180 cm (males) and 109 - 152 cm (females) The Western Gorilla displays extreme sexual dimorphism; males are about twice the size offemales. Ears are small and hidden in the hair. Teeth arerelatively small except for large incisors. With the exception ofthe face, ears, hands, and feet (which are naked and black), bodyis covered in coarse brown hair; brows are sparsely haired | Fully mature adult male Western Gorillas develop a series of secondary sexual characteristics: a pronouncedsagittal crest (a bonystructure on top of the cranium, to which massive jaw muscles areattached); large canine teeth; broad chest that becomes bare with age; broad shoulders; and hair on the saddlethat is replaced with short grayishwhite hairs, hence they are popularly referredto as “ silverbacks. ” Some male “ Western Lowland Gorillas ” (G. g. gorilla) have a rich chestnut-color crown and sagittal crest, which contrasts with the rest of the body. “ Cross River Gorillas ” (G. g. diehlr) differ from Western Lowland Gorillas both in the shapeofthe skull and their genetics."
+        }
+      ],
+      "vernacularNames": [
+        {
+          "vernacularName": "Gorilla"
+        },
+        {
+          "vernacularName": "gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Western Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Western Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Westlicher Gorilla",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Lowland Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Western Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorille de l'Ouest",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Gorila Occidental",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Western Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorille de I'Ouest",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Westlicher Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorila occidental",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Lowland Gorilla; Cross River Gorilla (diehli)",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Western Lowland Gorilla (gorilla)",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorilla",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "gorilla"
+        },
+        {
+          "vernacularName": "western gorilla"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "1": "Animalia",
+        "44": "Chordata",
+        "359": "Mammalia",
+        "798": "Primates",
+        "5483": "Hominidae",
+        "2436440": "Gorilla"
+      },
+      "class": "Mammalia"
+    },
+    {
+      "key": 176665104,
+      "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+      "nubKey": 4267318,
+      "parentKey": 212589342,
+      "parent": "Gorilla",
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "order": "PRIMATES",
+      "family": "HOMINIDAE",
+      "genus": "Gorilla",
+      "kingdomKey": 212580349,
+      "phylumKey": 212580395,
+      "classKey": 212587293,
+      "orderKey": 212589037,
+      "familyKey": 212589341,
+      "genusKey": 212589342,
+      "scientificName": "Gorilla gorilla ssp. gorilla (Savage, 1847)",
+      "canonicalName": "Gorilla gorilla gorilla",
+      "authorship": "(Savage, 1847)",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SUBSPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Western Lowland Gorilla",
+          "language": "eng"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "212580349": "ANIMALIA",
+        "212580395": "CHORDATA",
+        "212587293": "MAMMALIA",
+        "212589037": "PRIMATES",
+        "212589341": "HOMINIDAE",
+        "212589342": "Gorilla"
+      },
+      "class": "MAMMALIA"
+    },
+    {
+      "key": 176665100,
+      "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+      "nubKey": 2436441,
+      "parentKey": 212589342,
+      "parent": "Gorilla",
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "order": "PRIMATES",
+      "family": "HOMINIDAE",
+      "genus": "Gorilla",
+      "species": "Gorilla gorilla",
+      "kingdomKey": 212580349,
+      "phylumKey": 212580395,
+      "classKey": 212587293,
+      "orderKey": 212589037,
+      "familyKey": 212589341,
+      "genusKey": 212589342,
+      "speciesKey": 176665100,
+      "scientificName": "Gorilla gorilla (Savage, 1847)",
+      "canonicalName": "Gorilla gorilla",
+      "authorship": "(Savage, 1847)",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Westlicher Gorilla",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Lowland Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Western Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorille de l'Ouest",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Gorila Occidental",
+          "language": "spa"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "212580349": "ANIMALIA",
+        "212580395": "CHORDATA",
+        "212587293": "MAMMALIA",
+        "212589037": "PRIMATES",
+        "212589341": "HOMINIDAE",
+        "212589342": "Gorilla"
+      },
+      "class": "MAMMALIA"
+    },
+    {
+      "key": 4267321,
+      "nameKey": 16727171,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 4267321,
+      "parentKey": 2436441,
+      "parent": "Gorilla gorilla",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Gorilla",
+      "species": "Gorilla gorilla",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 359,
+      "orderKey": 798,
+      "familyKey": 5483,
+      "genusKey": 2436440,
+      "speciesKey": 2436441,
+      "scientificName": "Gorilla gorilla diehli Matschie, 1903",
+      "canonicalName": "Gorilla gorilla diehli",
+      "authorship": "Matschie, 1903",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SUBSPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "extinct": false,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Cross River Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cross River Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cross River gorilla"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "1": "Animalia",
+        "44": "Chordata",
+        "359": "Mammalia",
+        "798": "Primates",
+        "5483": "Hominidae",
+        "2436440": "Gorilla",
+        "2436441": "Gorilla gorilla"
+      },
+      "class": "Mammalia"
+    },
+    {
+      "key": 176665116,
+      "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+      "nubKey": 4267321,
+      "parentKey": 212589342,
+      "parent": "Gorilla",
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "order": "PRIMATES",
+      "family": "HOMINIDAE",
+      "genus": "Gorilla",
+      "kingdomKey": 212580349,
+      "phylumKey": 212580395,
+      "classKey": 212587293,
+      "orderKey": 212589037,
+      "familyKey": 212589341,
+      "genusKey": 212589342,
+      "scientificName": "Gorilla gorilla ssp. diehli Matschie, 1904",
+      "canonicalName": "Gorilla gorilla diehli",
+      "authorship": "Matschie, 1904",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SUBSPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Cross River Gorilla",
+          "language": "eng"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "212580349": "ANIMALIA",
+        "212580395": "CHORDATA",
+        "212587293": "MAMMALIA",
+        "212589037": "PRIMATES",
+        "212589341": "HOMINIDAE",
+        "212589342": "Gorilla"
+      },
+      "class": "MAMMALIA"
+    },
+    {
+      "key": 176665110,
+      "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+      "nubKey": 7262070,
+      "parentKey": 212589342,
+      "parent": "Gorilla",
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "order": "PRIMATES",
+      "family": "HOMINIDAE",
+      "genus": "Gorilla",
+      "species": "Gorilla beringei",
+      "kingdomKey": 212580349,
+      "phylumKey": 212580395,
+      "classKey": 212587293,
+      "orderKey": 212589037,
+      "familyKey": 212589341,
+      "genusKey": 212589342,
+      "speciesKey": 176665110,
+      "scientificName": "Gorilla beringei Matschie, 1903",
+      "canonicalName": "Gorilla beringei",
+      "authorship": "Matschie, 1903",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Östlicher Gorilla",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Eastern Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorille de l'Est",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Gorilla Oriental",
+          "language": "spa"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "212580349": "ANIMALIA",
+        "212580395": "CHORDATA",
+        "212587293": "MAMMALIA",
+        "212589037": "PRIMATES",
+        "212589341": "HOMINIDAE",
+        "212589342": "Gorilla"
+      },
+      "class": "MAMMALIA"
+    },
+    {
+      "key": 7262070,
+      "nameKey": 4811989,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 7262070,
+      "parentKey": 2436440,
+      "parent": "Gorilla",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Gorilla",
+      "species": "Gorilla beringei",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 359,
+      "orderKey": 798,
+      "familyKey": 5483,
+      "genusKey": 2436440,
+      "speciesKey": 7262070,
+      "scientificName": "Gorilla beringei Matschie, 1903",
+      "canonicalName": "Gorilla beringei",
+      "authorship": "Matschie, 1903",
+      "publishedIn": "Sber. Ges. naturf. Fr. Berlin p.257",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 3,
+      "numOccurrences": 0,
+      "extinct": false,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [
+        {
+          "description": "Habitat. “ Grauer’s Gorillas ” (G. b. graueri) occur at 600 - 2900 m above sea level in dense mature and secondary lowland, submontane, and montane forest and, where present, in bamboo forest (Cyperus, Cyperaceae), swamp, and peat bog. Mountain Gorillas are restricted to elevations above 1850 m in the Virunga Volcanoes (1400 m in Bwindi Impenetrable National Park) by human occupation of lower elevations. They range up to 3800 m. During the rainy season, they frequent bamboo forest. They also visit alpine and subalpine grassland on the volcanic peaks. “ Eastern Lowland Gorilla ” is a misnomer because there is considerable overlap in the elevational ranges of Grauer’s and Mountain gorillas."
+        },
+        {
+          "description": "Activity patterns. The Eastern Gorilla is diurnal and semi-terrestrial. After waking, they feed intensively and then alternate rest, traveling, and feeding until bedding down for the night. Mountain Gorillas spend 55 % of the day foraging, 34 % resting, 7 % travelling, and 4 % in other activities. Eastern Gorillas build nests in trees, but the majority of their nests are on the ground."
+        },
+        {
+          "description": "Movements, Home range and Social organization. The distance traveled daily by Eastern Gorillas varies with elevation. Fruit availability decreases with increasing elevation, and with less fruit in the diet, they range shorter distances. Grauer’s and “ Bwindi ” gorillas occupy 16 - 28 km ® annually. Groups of Mountain Gorilla in the Virunga Volcanoes use areas as small as 6 km ” but as large as 34 km ”. Eastern Gorillas are not territorial, and there is extensive overlap between the home ranges of different groups. Grauer’s gorillas move ¢. 1500 m / day, whereas Mountain Gorillas usually travel less than 600 m / day. Eastern Gorilla groups are polygynous or polygynandrous, with one or more adult silverback males, several females, their offspring, and immature relatives forming the core of relatively stable groups. Median group size is ten weaned individuals; maximum observed group size is 65 individuals. About 40 % of groups contain more than one adult male, some as many as nine. Infanticide of unweaned offspring sometimes occurs when an outsider male challenges a resident silverback. If the dominant male of a multimale group dies, another resident male is likely to take over leadership, assuring some continuity and preventing group disintegration and infanticide."
+        },
+        {
+          "description": "Breeding. Male Eastern Gorillas become “ blackbacks ™ at 8 - 12 years of age and are capable of reproducing. They are considered silverbacks at twelve years of age and reach their full adult size at 15 years. Female menarche occurs at 6 - 7 years of age, followed by a period of adolescent sterility. Female Eastern Gorillas emigrate upon reaching sexual maturity to join another group or a solitary male. Average age of first parturition is 9 - 9 years. Females have a menstrual cycle of ¢. 28 days and are proceptive for 1 - 4 days around the time of ovulation. In unimale groups, one male mates with all adult females. In multimale groups, females often mate with more than one male, but the dominant male is the partner in most copulations. Subordinate males sometimes copulate surreptitiously, but they are harassed by a dominant male if detected. There is no birth season. Gestation is ¢. 255 days. For the first few years oflife, infants are highly dependent on their mothers’ care and sleep in her nest at night. Females carry their young ventrally in the early months; infants start to travel dorsally within a few weeks of birth. Females experience lactational amenorrhea while suckling infants. Young are weaned at 3 - 4 years of age, from which point, they no longer travel on their mothers’ back. Females give birth every 3 — 4 years and generally produce 3 — 4 surviving offspring during their reproductive life span. Maximum life span is unknown, but it is certainly over 40 years."
+        },
+        {
+          "description": "Status and Conservation. CITES Appendix I. Classified as Endangered on The IUCN Red List, with the Mountain Gorilla classified as Critically Endangered and Grauer’s Gorilla as Endangered. Listed under Class A in the African Convention on the Conservation of Nature and Natural Resources. Although Eastern Gorillas are protected by national and international laws, both subspecies are threatened by illegal activities. Grauer’s Gorilla habitat is estimated to cover an area of 100,000 km? east of the Lualaba River and the Burundi-Rwanda-Uganda border. Surveys in the 1990 s estimated a total population of 8660 - 25,500 Grauer’s Gorillas in discrete areas of their expansive habitat. Their current status is poorly known because few surveys have been possible since the mid- 1990 s due to insecurity in eastern DR Congo. Local declines have been documented and the total population remaining is perhaps 2000 - 10,000 individuals. If more precise data were available, Grauer’s Gorilla would without doubt be reclassified as Critically Endangered. Mountain Gorillas are restricted to two refugia that have been cut off from forest at lower elevation by advancing agriculture. One population occupies 215 km? in the 330 km * Bwindi Impenetrable National Park in south-western Uganda, and its numbers are stable. The other population occupies ¢. 375 km? in the 455 km * Virunga Volcanoes region and its numbers are increasing — nonetheless a total of only ¢. 780 individuals remain in this small and vulnerable region. The main threats to Eastern Gorillas are poaching, habitat loss, and civil war. Capture of live orphans is a secondary threat (after the mother has been killed and eaten), except where infant Mountain Gorillas are the principle target, fulfilling the demands ofa fictitious, illegal international market. DR Congo has a legal framework for managing national parks and wildlife, but has difficulty applying its laws, and political will is limited. Underlying this is the difficult sociopolitical context: breakdown in law and order during years of conflict, combined with poverty and economic insecurity, which exacerbate difficulties of enforcing the law within the Grauer’s Gorilla’s range. Armed conflict and collapse of law and order in DR Congo have caused a significant rise in the illegal circulation of military weapons and ammunition. Formertraditional hunters now have access to guns, notably the AK 47, and commercial trade in bushmeat has increased with the spread of firearms, often supplied by government soldiers and rebel militia. Illegal miners are decimating the main stronghold ofthe Grauer’s Gorilla. Several international conservation organizations have been working in difficult circumstances for decades to support national park authorities and try to secure the Eastern Gorillas’ survival."
+        },
+        {
+          "description": "Descriptive notes. Head-body 101 - 120 cm (males); weight 120 - 209 kg (males) and c. 60 - 98 kg (females); standing height 159 - 196 cm (males) and 130 - 150 cm (females). The Eastern Gorilla displays extreme sexual dimorphism; males can be twice the size of females. It is somewhat larger than the Western Gorilla (Gorilla gorilla) and is therefore the largest of all primates. Eastern Gorillas, the “ Mountain Gorilla ” (G. b. beringei) in particular, have shorter arms and are stockier than Western Gorillas. Head is large, and ears are small and hidden in the hair. Teeth are relatively small except for large incisors. Mountain Gorillas have large jaws and a wider facial skeleton than other Gorilla taxa. With the exception of face, ears, hands, and feet (which are naked and black), body is covered in coarse black hair. Hair of the Mountain Gorilla is thick and long, especially on the arms of adult males. Fully mature adult males develop a pronounced sagittal crest and have large canine teeth; broad chest and shoulders; a bare chest with age; and hair on the back that is replaced with short grayish-white hairs, spreading to the thighs later in life; hence, they are popularly referred to as “ silverbacks. ”"
+        },
+        {
+          "description": "Gorillas of the Bwindi Impenetrable National Park in south-western Uganda are currently listed as the subspecies beringei. The mtDNA of this population does not differ from beringe: in the Virungas, but they look more like graueri. Further research is needed to clarify their taxonomy. Two subspecies are recognized."
+        },
+        {
+          "description": "Subspecies and Distribution. G. b. beringe: Matschie, 1903 — VirungaVolcanoesRegioninEDRCongo, SWUganda, andNWRwanda, alsoinBwindiImpenetrableNationalParkinSWUganda. G. b. graueri Matschie, 1914 — E DR Congo, inhabiting three major regions (Kahuzi-Biéga-Kasese, [tombwe Massif, and Maiko-Tayna)."
+        },
+        {
+          "description": "Food and Feeding. Diet of the Eastern Gorilla varies greatly with elevation and its effect on food availability. Grauer’s Gorillas have a more diverse and seasonal diet at lower elevations. Grauer’s Gorillas in lowland forest and Bwindi gorillas are more frugivorous: fruit forms ¢. 25 % of their total diet. Other dietary items include leaves, pith, bark, vines, herbs, and ants. Mountain Gorillas in the Virunga Volcanoes Region are largely herbivorous and feed on stems, pith, leaves, bark, and occasionally ants. Their favored food items are wild celery, thistles, nettles, bedstraw, wood, and roots. Both Eastern Gorilla subspecies feed almost exclusively on young bamboo shoots when they are in season."
+        },
+        {
+          "description": "Rwanda, Mount Sabyinyo."
+        }
+      ],
+      "vernacularNames": [
+        {
+          "vernacularName": "Östlicher Gorilla",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Eastern Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorille de l'Est",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Gorilla Oriental",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Eastern Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Eastern Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorille de I'Est",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Ostlicher Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gorila oriental",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Eastern Lowland / Grauer’s Gorilla (graueri)",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Mountain Gorilla (beringei)",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Eastern Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "mountain gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "eastern gorilla"
+        },
+        {
+          "vernacularName": "gorilla"
+        },
+        {
+          "vernacularName": "highland gorilla"
+        },
+        {
+          "vernacularName": "mountain gorilla"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "1": "Animalia",
+        "44": "Chordata",
+        "359": "Mammalia",
+        "798": "Primates",
+        "5483": "Hominidae",
+        "2436440": "Gorilla"
+      },
+      "class": "Mammalia"
+    },
+    {
+      "key": 4267322,
+      "nameKey": 16727130,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 4267322,
+      "parentKey": 7262070,
+      "parent": "Gorilla beringei",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Gorilla",
+      "species": "Gorilla beringei",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 359,
+      "orderKey": 798,
+      "familyKey": 5483,
+      "genusKey": 2436440,
+      "speciesKey": 7262070,
+      "scientificName": "Gorilla beringei graueri Matschie, 1914",
+      "canonicalName": "Gorilla beringei graueri",
+      "authorship": "Matschie, 1914",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SUBSPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "extinct": false,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Grauer's Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Grauer's Gorilla",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "eastern lowland gorilla"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "1": "Animalia",
+        "44": "Chordata",
+        "359": "Mammalia",
+        "798": "Primates",
+        "5483": "Hominidae",
+        "2436440": "Gorilla",
+        "7262070": "Gorilla beringei"
+      },
+      "class": "Mammalia"
+    },
+    {
+      "key": 176665106,
+      "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+      "nubKey": 4267322,
+      "parentKey": 212589342,
+      "parent": "Gorilla",
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "order": "PRIMATES",
+      "family": "HOMINIDAE",
+      "genus": "Gorilla",
+      "kingdomKey": 212580349,
+      "phylumKey": 212580395,
+      "classKey": 212587293,
+      "orderKey": 212589037,
+      "familyKey": 212589341,
+      "genusKey": 212589342,
+      "scientificName": "Gorilla beringei ssp. graueri Matschie, 1914",
+      "canonicalName": "Gorilla beringei graueri",
+      "authorship": "Matschie, 1914",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SUBSPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Grauer's Gorilla",
+          "language": "eng"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "212580349": "ANIMALIA",
+        "212580395": "CHORDATA",
+        "212587293": "MAMMALIA",
+        "212589037": "PRIMATES",
+        "212589341": "HOMINIDAE",
+        "212589342": "Gorilla"
+      },
+      "class": "MAMMALIA"
+    },
+    {
+      "key": 11374086,
+      "nameKey": 59184989,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+      "nubKey": 11374086,
+      "parentKey": 2866802,
+      "parent": "Pseudohydrosme",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Pseudohydrosme",
+      "species": "Pseudohydrosme ebo",
+      "kingdomKey": 6,
+      "phylumKey": 7707728,
+      "classKey": 196,
+      "orderKey": 551,
+      "familyKey": 6979,
+      "genusKey": 2866802,
+      "speciesKey": 11374086,
+      "scientificName": "Pseudohydrosme ebo Cheek",
+      "canonicalName": "Pseudohydrosme ebo",
+      "authorship": "Cheek",
+      "publishedIn": "Cheek, Martin, Tchiengué, Barthélemy, van der Burgt, Xander (2021): Taxonomic revision of the threatened African genus Pseudohydrosme Engl. (Araceae), with P. ebo, a new, critically endangered species from Ebo, Cameroon. PeerJ 9: 1-32, DOI: 10.7717/peerj.10689, URL: http://dx.doi.org/10.7717/peerj.10689",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": ["CRITICALLY_ENDANGERED"],
+      "descriptions": [
+        {
+          "description": "Phenology: flowering in September and early October; leaves early December; fruiting unknown."
+        },
+        {
+          "description": "Conservation: Pseudohydrosme ebo is known from only one location, with three sites along a section of valley 1.3 km long and only 50 – 100 mature individuals in total have been seen by the collectors (second and third authors). These sites are along former logging roads which have reverted to forest (X. Van der Burgt, 2019, personal observation) as well as intact forest. In the fourteen years since 2006, botanical surveys have been made almost annually, at different seasons, over many parts of the formerly proposed National Park of Ebo. About 3000 botanical herbarium specimens have been collected, but despite the species being so spectacular in flower, with individual inflorescences lasting potentially two weeks (if they prove to be similar in phenology to those of P. gabunensis), this species has been seen nowhere else in the c. 2000 km 2 of the Ebo Forest. However, much of this area has not been surveyed during the flowering season of the species, or not surveyed at all for plants. While it is likely that the species will be found at additional sites, there is no doubt that it is genuinely range restricted. Botanical surveys for conservation management in forest areas neighbouring Ebo resulting in thousands of specimens being collected and identified have failed to find any specimens of Pseudohydrosme (Cheek et al., 1996; Cable & Cheek, 1998; Cheek, Onana & Pollard, 2000; Harvey et al., 2004; Cheek et al., 2004; Cheek, Harvey & Onana, 2010; Harvey, Tchiengue & Cheek, 2010). It is possible that the species is unique to Ebo and truly localised. The area of occupation of Pseudohydrosme ebo is estimated as 4 km 2 using the IUCN preferred cell-size. The extent of occurrence is the same area. In February 2020 it was discovered that moves were in place to convert the forest into two logging concessions (e. g. https: // www. globalwildlife. org / blog / ebo-forest-a-stronghold-for-cameroons-wildlife / and https: // blog. resourceshark. com / cameroon-approves-logging-concession-that-will-destroy-ebo-forest-gorilla-habitat / both accessed 19 September 2020). This would result in logging tracks that would allow access throughout the forest allowing poachers of rare collectable plants such as Pseudohydrosme, and timber extraction would open up the canopy and remove the intact habitat in which Pseudohydrosme grows. Additionally, slash and burn agriculture often follows logging trails and would negatively impact the populations of this species. Fortunately the logging concession was suspended due to representations to the President of Cameroon on the global importance of the biodiversity of Ebo (https: // www. businesswire. com / news / home / 20200817005135 / en / Relief-in-the-Forest-Cameroonian-Government-Backtracks-on-the-Ebo-Forest accessed 19 September 2020). However, the forest habitat of this species remains unprotected and threats of logging and conversion of the habitat to plantations remain. Pseudohydrosme ebo is therefore here assessed, on the basis of the range size given and threats stated as CR B 1 + 2 ab (iii), that is Critically Endangered."
+        },
+        {
+          "description": "Figs. 1 – 3, 6 and 7."
+        },
+        {
+          "description": "Terrestrial herb, to 1.55 m tall. Rhizome cylindric, c. 3 cm diam. obliquely erect to almost parallel to substrate surface, only upper part exposed, surface with transverse ridges (leaf scars) about 2 mm deep, 2 mm apart. Roots adventitious, thick, fleshy, c. 5 mm diam., scattered along length of rhizome, asexual reproduction not detected. Leaf to 1.55 m tall, petiole terete, to 2 cm. diameter at base, green, inconspicuously spotted yellow, mature plants with minute, patent, extremely sparse prickles 0.5 mm long. Blade of youngest seedlings sagittate-elliptic, 5 × 2.5 cm, apex obtuse, basal sinus 1.5 × 1.5 cm, petiole 6 – 7 cm long. Older seedlings, in successive years with leaves developing first slits and then divisions, becoming triangular in outline with a broad basal sinus. Blade of mature leaves dracontoid, primary division 35 – 40 × 38 – 43 cm, pinnatisect, lobes 5 – 8, dimorphic, larger, mainly distal lobes oblong 12.5 – 22 × 3.8 – 6.5 cm, apex acuminate or truncate-bifid (biacuminate), acumen 0.8 – 1.5 cm long, smaller, mainly proximal lobes ovate c. 8 × 3.5 cm; lateral veins 6 – 11 conspicuous on abaxial surface, on each side of the midrib, uniting to form a regular looping submarginal vein 3 – 6 mm from the margin, higher order veins reticulate. Inflorescence: Cataphylls 4, phyllotaxy spiral, light brown, with light green spots, membranous, successively increasing in size from proximal to distal, the outermost triangular-broadly ovate, amplexicaul 3 × 4 cm, the third in succession narrowly lanceolate-oblong, 12 × 2 cm, the fourth 18 – 19 × 1.5 – 4 cm; peduncle 3.5 – 4.5 × 0.6 – 0.7 cm, with minute, patent, extremely sparse prickles 0.5 mm long, colour as petiole. Spathe 24 – 30 (– 34.5) × 8 cm long basal 1 / 2 – 3 / 4 subcylindric, convolute, funnel-shaped, 1.8 – 4 cm wide at 2 cm above the peduncle, 6 – 8 cm wide at 8 cm above the peduncle, and 8 – 9 cm wide at 15 cm above the peduncle, the distal part (limb), half to one third of the total spathe length, flaring widely and curving forward, hood-like, shielding the spadix, the apex with a triangular acumen 3 – 4 × 1 cm; outer surface of both tube and limb dull white, with pale brown-red ribs running longitudinally along veins from base of tube to mouth of limb; inner surface of spathe light reddish brown, with wide pale green veins, gradually becoming slightly darker along the midline; mouth facing horizontally, transversely elliptic, 8 – 10 cm high, 20 – 25 cm wide, margin entire. Spadix sessile, cylindrical, 50 – 85 mm long, 10 – 18 mm diam. Female zone 24 mm long, 15 – 18 mm wide, female flowers sparsely scattered, c. 30, laxly arranged, covering only about half the surface of the spadix axis, the axis visible between the flowers, sometimes not contiguous with the male zone, the axis then naked for up to 10 mm. Male zone 37 – 55 mm long, 10 – 14 mm wide, apex rounded, completely covered in densely arranged male flowers, sterile appendix absent. Male flowers with 2 – 5 stamens, sometimes paired or in groups of 3 – 5, stamens free, sessile, prismatic, 5 mm long, isodiametric in plan-view, 5 – 6 faceted, (1.5 –) 2 mm diam., apex convex, minutely papillate; anther thecae lateral, tetrasporangiate (Fig. 6 F), oblong-elliptic, running the length of the stamen, with apical pore (Fig. 6 E). Female flowers with ovary globose, 4 mm diam., 3 - locular (Fig. 6 I), very rarely 2 - locular, style 1 – 1.5 mm long, 1 mm diam., stigma pale yellow, 0.5 mm thick, 2 – 2.25 mm wide, strongly 3 - lobed (Fig. 7 E), lobes with a narrow midline groove, apex rounded. Berry and seed not seen."
+        },
+        {
+          "description": "Notes: Pseudohydrosme ebo came to the attention of the first author in late Aug. 2018 on seeing van der Burgt 1888, collected in 2015. Plans were made to revisit the collection site at the next available opportunity, in December 2019, when leaves were found by the third author (van der Burgt 2377), but unfortunately fruits were not found. At the same time a second site was discovered 1.3 km distant from the site found in 2015. In February 2020 van der Burgt found at Kew an overlooked, additional specimen, Morgan 25, which is the earliest known record of the species, dating from 2010, and since it has multiple duplicates, has been selected as type of the new species. The associated collection data previously mislaid was rediscovered in May 2020. Alvarez with van der Burgt, and Ngansop, discovered in December 2019 seedlings of the new species, at three different stages, preserved as Van der Burgt 2377 sheet 1 / 4 (see Fig 7). Clearly the species at this site is reproducing itself. Associated photographs also show plants of different ages. Abwe & Morgan (2008) and Cheek et al. (2018 b) characterise the Ebo forest, and give overviews of habitats, species and importance for conservation. Fifty-two globally threatened plant species are currently listed from Ebo on the IUCN Red List website and the number is set to rise rapidly. The discovery of a new species to science at the Ebo forest is not unusual. Since numerous new species have been published from Ebo in recent years. Examples of other species that, like Pseudohydrosme ebo appear to be strictly endemic to Ebo on current evidence are: Ardisia ebo Cheek (Cheek & Xanthos, 2012), Crateranthus cameroonensis Cheek and Prance (Prance & Jongkind, 2015), Gilbertiodendron ebo Burgt and Mackinder (Van der Burgt et al., 2015), Inversodicraea ebo Cheek (Cheek et al., 2017), Kupeantha ebo M. Alvarez and Cheek (Cheek et al., 2018 a), Palisota ebo Cheek (Cheek et al., 2018 b). Further species described from Ebo have also been found further west, in the Cameroon Highlands, particularly at Mt Kupe and the Bakossi Mts (Cheek et al., 2004). Examples are Myrianthus fosi Cheek (Cheek & Osborne, 2010), Salacia nigra Cheek (Gosline, Cheek & Kami, 2014), Talbotiella ebo Mackinder and Wieringa (Mackinder, Wieringa & Van der Burgt, 2010) Additionally, several species formerly thought endemic to Mt Kupe have subsequently been found at Ebo, for example Coffea montekupensis Stoff. (Stoffelen et al., 1997), Costus kupensis Maas and H. Maas (Van de Kamer et al., 2016), Microcos magnifica Cheek (Cheek, 2017), and Uvariopsis submontana Kenfack, Gosline and Gereau (Kenfack et al., 2003). Therefore, it is possible that Pseudohydrosme ebo might yet also be found in the Cameroon highlands, for example at Mt Kupe, further extending westward the known range of the genus. However, this is thought to be only a relatively small possibility given the spectacular nature of this plant, and the high level of survey effort at for example Mt Kupe: if it occurred there it is highly likely that it would have been recorded already. Additional characters separating Pseudohydrosme ebo from P. gabunensis are show in Table 1. It is to be hoped that further studies of live plants of P. ebo will be possible to determine if, like P. gabunensis it also reproduces asexually from the root tips. The biogeography of the Cameroonian Pseudohydrosme ebo is very different from that of the two Gabonese species of the genus growing c. 450 km to the South. The Gabonese species grow on recently deposited, sandy coastal soils. Although the Gabonese species also experience a wet season of about 3 m of rainfall per annum, it is differently distributed: the dry season in Libreville occurs from June to September inclusive and is colder than the wet season. In contrast at Ebo the geology at the Pseudohydrosme location is ancient, highly weathered basement complex, with some ferralitic areas in foothill areas which are inland, c. 100 km from the coast. The wet season (successive months with cumulative rainfall> 100 mm) is almost the inverse of at Libreville, falling between March and November and is colder than the dry season (Abwe & Morgan, 2008). In addition, the affinities of Ebo as indicated by shared plant species, seems to be with other parts of the Cross-Sanaga biogeographic area, the Cameroon Highlands, rather than with Gabon (see above)."
+        },
+        {
+          "description": "Distribution and ecology: Cameroon, Littoral Region, known only from three sites at one location in the Ebo forest near Yabassi-Yingui, in late secondary and intact, undisturbed lowland evergreen forest on ancient basement complex geology, rainfall c. 3 m p. a., drier season October-March; 300 – 400 m alt."
+        },
+        {
+          "description": "Etymology: named as a noun in apposition for the forest of Ebo, in Cameroon’ s Littoral Region, Yabassi-Yingui Prefecture, to which this spectacular species is globally restricted on current evidence."
+        },
+        {
+          "description": "Additional specimens: Cameroon, Littoral Region, Ebo proposed National Park, fl. 8 Oct. 2015 van der Burgt 1888 (K! YA!); ibid., st. (leaves) 9 Dec. 2019, van der Burgt 2377 (K!, MO!, P!, WAG!, YA!)."
+        },
+        {
+          "description": "Differing from Pseudohydrosme gabunensis Engl. in the ovaries 3 - locular, the stigma conspicuously 3 - lobed, very rarely 2 - locular / lobed (vs. usually 2 - locular, 2 - lobed, rarely 3 - locular / lobed), the female zone of the spadix only sparsely covered in flowers, the spadix axis visible between the flowers (vs. completely covered in flowers), the spathe at anthesis 24 – 30 (– 34.5) cm long, the outer surface dull white with longitudinal brown stripes, inner surface light reddish brown with wide pale green veins (vs. (30 –) 40 – 55 (- 70) cm long, uniformly white, green or yellow on both surfaces, inner surface bicoloured, the mid-limb area dark purple, sharply demarcated from the marginal white / yellow coloured area)."
+        },
+        {
+          "description": "Type: B. J. Morgan 25 (holotype K!; isotypes B! MO! YA!), Cameroon, Littoral Region, Yabassi-Yingui, Ebo proposed National Park, fl. September 2010."
+        },
+        {
+          "description": "Local names and uses: none are known."
+        }
+      ],
+      "vernacularNames": [],
+      "synonym": false,
+      "higherClassificationMap": {
+        "6": "Plantae",
+        "196": "Liliopsida",
+        "551": "Alismatales",
+        "6979": "Araceae",
+        "2866802": "Pseudohydrosme",
+        "7707728": "Tracheophyta"
+      },
+      "class": "Liliopsida"
+    }
+  ],
+  "facets": []
+}
