@@ -53,9 +53,9 @@ testRouter.get("/", async (req, res, next) => {
 
     // Data fetch test
     console.log(
-      nameData.slice(0, 3),
-      threatData.slice(0, 3),
-      photoData.slice(0, 3)
+      nameData.slice(0, MAX_ITEM),
+      threatData.slice(0, MAX_ITEM),
+      photoData.slice(0, MAX_ITEM)
     );
 
     // Lastly render test page, max number items pass
