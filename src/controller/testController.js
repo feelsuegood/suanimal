@@ -1,15 +1,12 @@
-const express = require("express");
-const dotenv = require("dotenv");
 const axios = require("axios");
+const dotenv = require("dotenv");
 
 dotenv.config();
 
-const testRouter = express.Router();
-const MAX_ITEM = 3;
-
-/* GET test page. */
-testRouter.get("/", async (req, res, next) => {
+const test = async (req, res, next) => {
   try {
+    const MAX_ITEM = 3;
+
     // Get animal name and threat from GBIF API
     const { name } = req.query;
     // change threat to req.query or req.body or req.params
@@ -59,7 +56,7 @@ testRouter.get("/", async (req, res, next) => {
       photoData.slice(0, MAX_ITEM)
     );
 
-    // Lastly render test page, max number items pass
+    // ** Lastly render test page, max number items pass
     res.render("test", {
       threatData: threatData.slice(0, MAX_ITEM),
       nameData: nameData.slice(0, MAX_ITEM),
@@ -74,6 +71,8 @@ testRouter.get("/", async (req, res, next) => {
       description: "Error fetching data",
     });
   }
-});
+};
 
-module.exports = testRouter;
+module.exports = {
+  test,
+};
