@@ -1,12 +1,12 @@
-import createError from "http-errors";
-import express from "express";
-import path from "path";
-import cookieParser from "cookie-parser";
-import logger from "morgan";
+const createError = require("http-errors");
+const express = require("express");
+const path = require("path");
+const cookieParser = require("cookie-parser");
+const logger = require("morgan");
 
-import indexRouter from "../src/routes/index";
-import usersRouter from "../src/routes/users";
-import testRouter from "../src/routes/test";
+const indexRouter = require("../src/routes/index");
+const usersRouter = require("../src/routes/users");
+const testRouter = require("../src/routes/test");
 
 const app = express();
 
@@ -40,4 +40,4 @@ app.use((err, req, res, next) => {
   res.render("error");
 });
 
-export default app;
+module.exports = app;

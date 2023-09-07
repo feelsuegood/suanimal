@@ -1,5 +1,5 @@
-import express from "express";
-import dotenv from "dotenv";
+const express = require("express");
+const dotenv = require("dotenv");
 
 const indexRouter = express.Router();
 dotenv.config();
@@ -11,4 +11,4 @@ indexRouter.get("/", (req, res) => {
   res.render("index", { title });
 });
 
-export default indexRouter;
+module.exports = indexRouter;

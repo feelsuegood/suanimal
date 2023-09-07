@@ -1,5 +1,5 @@
-import express from "express";
-import dotenv from "dotenv";
+const express = require("express");
+const dotenv = require("dotenv");
 
 dotenv.config();
 
@@ -8,9 +8,8 @@ const router = express.Router();
 /* GET home page. */
 router.get("/", async (req, res) => {
   const FLICKR_API_KEY = process.env.FLICKR_API_KEY;
-  const response = await fetch(
-    `https://api.flickr.com/services/rest?method=flickr.photos.search&api_key=${FLICKR_API_KEY}&tags=golden-retriever&per-page=50&format=json&nojsoncallback=1&media=photos`
-  );
+  const response =
+    await `https://api.flickr.com/services/rest?method=flickr.photos.search&api_key=${FLICKR_API_KEY}&tags=golden-retriever&per-page=50&format=json&nojsoncallback=1&media=photos`;
   const data = await response.json();
   const photos = data.photos;
 
@@ -27,4 +26,4 @@ router.get("/", async (req, res) => {
   res.render("index", { title });
 });
 
-export default router;
+module.exports = router;

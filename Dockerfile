@@ -1,11 +1,10 @@
 # Use the Node.js LTS image as a base
 FROM node:lts
 
-# Set working directory to /
-WORKDIR /
-
 # Copy app source
-COPY . /
+COPY . /app
+
+WORKDIR /app
 
 # Install app dependencies
 RUN npm install
@@ -14,4 +13,5 @@ RUN npm install
 EXPOSE 3000
 
 # Start command as per the package.json file
-CMD ["npm", "run", "test"]
+CMD ["npm", "start"]
+

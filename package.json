@@ -3,10 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon --exec babel-node ./src/bin/www.js",
-    "test": "node src/build/bin/www.js",
-    "dev": "nodemon",
-    "build": "babel src -d src/build"
+    "start": "nodemon ./src/bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -18,11 +15,7 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.22.15",
-    "@babel/core": "^7.22.15",
-    "@babel/node": "^7.22.6",
-    "@babel/preset-env": "^7.22.9",
-    "nodemon": "^3.0.1",
-    "npm-run-all": "^4.1.5"
+    "axios": "^1.5.0",
+    "nodemon": "^3.0.1"
   }
 }

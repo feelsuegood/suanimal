@@ -1,6 +1,8 @@
-import express from "express";
-import dotenv from "dotenv";
+const express = require("express");
+const dotenv = require("dotenv");
 
 dotenv.config();
 
-export default controller;
+const controller = express();
+
+module.exports = controller;
