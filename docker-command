@@ -1,0 +1,15 @@
+▶Build
+
+docker buildx build \
+  --platform "linux/amd64,linux/arm64" \
+  --tag knoursuelf/suanimal \
+  --push \
+  --no-cache \
+  .
+
+▶️Run
+
+docker run -p 8000:3000 \
+ --rm -idt \
+ -e FLICKR_API_KEY=decff4853061252bb473bc2e3fa81d79 \
+ knoursuelf/suanimal
