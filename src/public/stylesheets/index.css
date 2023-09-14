@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;800&display=swap");
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 170%;
+}
+.index-body {
+  background-color: #ffa202;
+  font-family: "Work Sans", system-ui, -apple-system, sans-serif;
+}
+.index-welcome {
+  font-weight: 700;
+  color: white;
+}
+.index-search {
+  width: 50%;
+  height: 300%;
+}
+.index-search input,
+.index-search input:focus {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  color: white;
+}
+.index-search input::placeholder,
+.index-search input:focus::placeholder {
+  color: white;
+}

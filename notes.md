@@ -31,3 +31,5 @@ export default someFunction;
 ```
 
 이 두 모듈 시스템은 주로 다른 환경에서 사용됩니다. CommonJS는 Node.js 환경에서 주로 사용되고, ES6 모듈은 웹 브라우저와 현대적인 JavaScript 개발에서 사용됩니다. 또한 ES6 모듈은 정적 분석(static analysis)과 트리 셰이킹(tree shaking) 같은 최적화 기능을 제공하므로 더 효율적이고 모던한 방법으로 모듈을 다룰 수 있습니다.
+
+https://api.gbif.org/v1/species/search?threat=CRITICALLY_ENDANGERED

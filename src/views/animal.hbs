@@ -1,0 +1,12 @@
+<h1>Choose an animal you want to know</h1>
+
+{{#each searchedAnimal}}
+<p>{{this.name}}</p>
+<a href="animal/{{this.taxonomy.scientific_name}}">{{this.taxonomy.scientific_name}}</a>
+<p>{{this.taxonomy.scientific_name}}</p>
+{{/each}}
+
+{{#each photoData}}
+ <a href={{this.url}}>
+    <img src={{this.image}} alt={{this.title}} />
+    {{/each}}

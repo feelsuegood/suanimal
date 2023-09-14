@@ -1,34 +1,54 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>{{title}}</title>
-    {{!-- {{#each css}}
-        <link rel="stylesheet" href="/css/{{this}}">
-    {{/each}} --}}
-    <link rel="stylesheet" href="./stylesheets/style.css" />
-  </head>
-  <body>
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Suanimal</h1>
-      <p class="welcome-header__text">
-        A lot of animals is endangered. Please save them with Sanimal.
-      </p>
-    </header>
-{{!-- search an endangered animal by name --}}
-    <form action="test" method="get" id="search-form">
-      <input
-        name="name"
-        required
-        type="text"
-        placeholder="Animal name"
-      />
-      {{!-- <input name="password" type="password" placeholder="Password" /> --}}
-      <input type="submit" value="Search" />
-      <a href="#">Find a way to help animals</a>
-    </form>
-    <script
-      src="https://kit.fontawesome.com/90b0d86629.js"
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{pageTitle}}</title>
+    {{!-- bootstrap css --}}
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
-    ></script>
+    />
+    {{!-- <link rel="stylesheet" href="/stylesheets/style.css" /> --}}
+    <link rel="stylesheet" href="/stylesheets/index.css" />
+  </head>
+  <body class="index-body">
+    <main>
+
+      {{! want to put in the middle }}
+      <div class="container text-center d-flex flex-column justify-content-center align-items-center min-vh-100">
+        
+<h1 class="mb-4 index-welcome">🦧 Please enter an animal name 🦍</h1>
+        <form
+          action="animal"
+          method="get"
+          class="d-flex justify-content-center index-search"
+        >
+          <!-- 검색 바를 가운데로 정렬합니다. -->
+          <input
+            name="name"
+            class="form-control form-control-lg me-3"
+            required
+            type="text"
+            placeholder="eg. orangu-tan, gorilla, chimpanzee"
+          />
+          <button type="submit" class="search-button">
+<i class="fa-solid fa-magnifying-glass fa-fade fa-2xl" style="color: #ffffff;"></i></button>
+        </form>
+      </div>
+      {{! add 10 animals example list }}
+      {{!-- <div class="animal-examples">
+  {{#each passedData}}
+  <div class="card" style="width: 18rem;">
+  <img src={{this.image}} class="card-img-top" alt={{this.name}}>
+  <div class="card-body">
+    <p class="card-text">{{this.description}}</p>
+  </div>
+  {{/each}}
+</div>
+</div> --}}
+
+    </main>
+    <script src="https://kit.fontawesome.com/90b0d86629.js" crossorigin="anonymous"></script>
   </body>
 </html>

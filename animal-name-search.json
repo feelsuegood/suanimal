@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Giant Panda Bear",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Ursidae",
+      "genus": "Ailuropoda",
+      "scientific_name": "Ailuropoda melanoleuca"
+    },
+    "locations": ["Asia"],
+    "characteristics": {
+      "prey": "Bamboo, Fruits, Rodents",
+      "name_of_young": "Cub",
+      "group_behavior": "Solitary",
+      "estimated_population_size": "2,000",
+      "biggest_threat": "Habitat loss",
+      "most_distinctive_feature": "Extension of wrist bone acts as a thumb",
+      "other_name(s)": "Giant Bear Cat, Bamboo Bear",
+      "gestation_period": "5 months",
+      "habitat": "High-altitude, moist bamboo forest",
+      "diet": "Omnivore",
+      "average_litter_size": "1",
+      "lifestyle": "Diurnal/Nocturnal",
+      "common_name": "Giant Panda, Giant Panda Bear",
+      "number_of_species": "1",
+      "location": "Mountains of central China",
+      "slogan": "Bamboo makes up 99 per cent of their diet!",
+      "group": "Mammal",
+      "color": "BrownBlackWhite",
+      "skin_type": "Fur",
+      "top_speed": "20 mph",
+      "lifespan": "20 - 35 years",
+      "weight": "110kg - 250kg (242lbs - 551lbs)",
+      "height": "1.5m - 1.8m (4.9ft - 6ft)",
+      "age_of_sexual_maturity": "4 - 8 years",
+      "age_of_weaning": "12 - 15 months"
+    }
+  },
+  {
+    "name": "Red Panda",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Ailuridae",
+      "genus": "Ailurus",
+      "scientific_name": "Ailurus fulgens"
+    },
+    "locations": ["Asia"],
+    "characteristics": {
+      "prey": "Bamboo, Berries, Eggs",
+      "name_of_young": "Cub",
+      "group_behavior": "Solitary",
+      "estimated_population_size": "less than 3,000",
+      "biggest_threat": "Habitat loss",
+      "most_distinctive_feature": "Rusty coloured thick fur and striped face",
+      "other_name(s)": "Lesser Panda, Fire Fox",
+      "gestation_period": "4 months",
+      "habitat": "High-altitude mountain forest",
+      "predators": "Snow Leopard, Marten, Human",
+      "diet": "Omnivore",
+      "average_litter_size": "3",
+      "lifestyle": "Nocturnal",
+      "common_name": "Red Panda",
+      "number_of_species": "1",
+      "location": "Himalayas",
+      "slogan": "There are less than 3,000 left in the wild!",
+      "group": "Mammal",
+      "color": "BrownRedWhite",
+      "skin_type": "Fur",
+      "top_speed": "24 mph",
+      "lifespan": "8 - 12 years",
+      "weight": "3kg - 6.2kg (7lbs - 14lbs)",
+      "length": "60cm - 120cm (24in - 47in)",
+      "age_of_sexual_maturity": "18 months",
+      "age_of_weaning": "5 months"
+    }
+  }
+]
