@@ -1,3 +1,5 @@
+// * https://rapidapi.com/meteostat/api/meteostat/ : temperature api
+
 const axios = require("axios");
 const dotenv = require("dotenv");
 
@@ -5,13 +7,11 @@ dotenv.config();
 
 const FLICKR_API_KEY = process.env.FLICKR_API_KEY;
 const X_API_KEY = process.env.X_API_KEY;
+const X_RAPID_API_KEY = process.env.X_RAPID_API_KEY;
+const MAPBOX_API_KEY = process.env.MAPBOX_API_KEY;
 
-// 그러면 사용자가 검색한 후 해당 동물을 클릭을 하면 학명으로 바꿔서 위험 상태를 나타낼 수 있게 해야겠다.
-// https://api.gbif.org/v1/species/search?q=Marmota%20vancouverensis%20Swarth&threat=CRITICALLY_ENDANGERED&nametype=SCIENTIFIC
 // https://gbif.github.io/gbif-api/apidocs/org/gbif/api/vocabulary/ThreatStatus.html threat status info
 //       nameData.slice(0, MAX_ITEM), array 자르는 명령어
-
-// 계속 쓰이는 변수
 
 // 먼저 동물 이름을 검색하게 하고 맞는 이름을 선택하면 그 학명과 정보들을 상세 페이지로 넘기자.
 // 맨 처음에 가져올 것은 동물의 이름과 사진 학명 위험상태 가져오자
@@ -39,13 +39,15 @@ const handleAnimalSearch = async (req, res, next) => {
       res.render("error", { error: "Error from Animal API" });
       return;
     }
-    const searchedAnimal = animalResponse.data; // 검색된 동물 데이터를 얻습니다.
+    const searchedAnimal = animalResponse.data.filter(
+      (animal) => animal.taxonomy && animal.taxonomy.scientific_name
+    );
 
     // Flickr API
-    const flickrAPIBaseUrl = `https://api.flickr.com/services/rest?method=flickr.photos.search&api_key=${FLICKR_API_KEY}&safe_search=1&per_page=1&format=json&nojsoncallback=1&media=photos`;
+    const flickrAPIBaseUrl = `https://api.flickr.com/services/rest?method=flickr.photos.search&api_key=${FLICKR_API_KEY}&safe_search=1&per_page=1&sort=relevance&format=json&nojsoncallback=1&media=photos`;
     const flickrAPIUrls = searchedAnimal.map((animal) => {
-      const animalName = animal.name.toLowerCase();
-      const flickrAPIUrl = `${flickrAPIBaseUrl}&tags=${animalName}`;
+      const animalName = animal.taxonomy.scientific_name.toLowerCase();
+      const flickrAPIUrl = `${flickrAPIBaseUrl}&text=${animalName}`;
       return flickrAPIUrl;
     });
 
@@ -70,24 +72,42 @@ const handleAnimalSearch = async (req, res, next) => {
       )
       .flat();
 
-    console.log(searchedAnimal, photoData);
+    // combine photo data, scientific name 한개만 추출, 학명 없는애 거르기
+    const animalData = searchedAnimal.map((animal, index) => ({
+      ...animal,
+      photoData: photoData[index],
+      first_scientific_name: animal.taxonomy.scientific_name.split(", ")[0],
+      locationString: animal.locations.join(","),
+    }));
+    console.log(animalData);
     res.render("animal", {
-      pageTitle: "Animal",
-      searchedAnimal,
-      photoData,
+      pageTitle: `🐨 Search | Suanimal 🦘`,
+      animalData,
     });
   } catch (error) {
-    console.error("Error:", error);
-    res.status(500).send("Internal Server Error");
+    console.error("Error fetching data:", error);
+    const title = "Error: Nothing Found";
+    res.status(500).render("error", {
+      title,
+      message: "Nothing Found",
+      description: "Error fetching data",
+    });
   }
 };
 
+// * Animal Detail page
 const handleAnimal = async (req, res, next) => {
+  const scientificName = req.query.name;
+  const locationString = req.query.location;
+  const locationArray = locationString.split(",");
+  // .map((item) => item.trim());
+
+  console.log("Name:", scientificName);
+  console.log("🦕 Location Array:", locationArray);
+
   // in case there are so many result use max item number
-  console.log("❗️", req.params.scientificName);
   const MAX_ITEM = 3;
-  const scientificName = req.params.scientificName.replace(" ", "%20");
-  // const searchName = name.replace(" ", "%20");
+
   // get animal data
   const baseUrl = `https://api.gbif.org/v1/species/search?q=${scientificName}&nametype=SCIENTIFIC`;
   const threatTypes = [
@@ -99,7 +119,8 @@ const handleAnimal = async (req, res, next) => {
     "NEAR_THREATENED",
     "LEAST_CONCERN",
   ];
-  // get threat status data
+
+  // * get threat status data
   async function fetchThreatStatus(scientificName) {
     const baseUrl = `https://api.gbif.org/v1/species/search?q=${scientificName}&nametype=SCIENTIFIC`;
     let threatData = null;
@@ -121,12 +142,37 @@ const handleAnimal = async (req, res, next) => {
         break;
       }
     }
-
+    // threatData가 null인 경우 "NO RESULT"를 할당합니다.
+    if (threatData === null) {
+      threatData = "NO RESULT";
+    }
+    // scientificName을 사용합니다.
     return {
-      scientific_name: scientificName, // scientificName을 사용합니다.
+      scientific_name: scientificName,
       threatStatuses: threatData,
     };
   }
+
+  // * get lon, lat info
+  // const geoPromises = locationArray.map((location) => {
+  //   const geoOptions = {
+  //     method: "GET",
+  //     url: "https://forward-reverse-geocoding.p.rapidapi.com/v1/search",
+  //     params: {
+  //       q: location,
+  //       "accept-language": "en",
+  //       polygon_threshold: "0.0",
+  //     },
+  //     headers: {
+  //       "X-RapidAPI-Key": X_RAPID_API_KEY,
+  //       "X-RapidAPI-Host": "forward-reverse-geocoding.p.rapidapi.com",
+  //     },
+  //   };
+
+  //   // Return the axios promise for this location
+  //   return axios(geoOptions);
+  // });
+
   // get news data
   // const options = {
   //   method: "GET",
@@ -194,23 +240,20 @@ const handleAnimal = async (req, res, next) => {
     // // );
 
     // // Lastly render test page, max number items pass
+    // * lon, lat 정보 불러오는 api
 
-    res.render("animal-threat", {
+    // // Send the API request for this location
+    // const response = await axios(geoOptions);
+
+    // // Handle the response for this location
+    // console.log(`Location: ${location}`);
+    // console.log(response.data);
+    // console.log("===================");
+
+    res.render("threat", {
       pageTitle: "Threat",
+      MAPBOX_API_KEY,
       threatData: threatData.threatStatuses.replace("_", " "),
-      // nameData: combinedResults[0].results[0].vernacularNames.reduce(
-      //   (uniqueNames, item) => {
-      //     const normalizedItem = item.vernacularName.toLowerCase(); // 문자열을 소문자로 통일
-      //     if (
-      //       item.language === "eng" &&
-      //       !uniqueNames.includes(normalizedItem)
-      //     ) {
-      //       uniqueNames.push(normalizedItem);
-      //     }
-      //     return uniqueNames;
-      //   },
-      //   []
-      // ),
       // photoData: photoData.slice(0, MAX_ITEM),
     });
   } catch (error) {
@@ -222,5 +265,24 @@ const handleAnimal = async (req, res, next) => {
       description: "Error fetching data",
     });
   }
+  // // Use Promise.all to execute all requests in parallel
+  // Promise.all(geoPromises)
+  //   .then((responses) => {
+  //     // Handle the responses here (responses may contain null values for failed requests)
+  //   })
+  //   .catch((error) => {
+  //     // Handle any errors here
+  //     console.error("Promise.all Error:", error);
+  //   });
 };
-module.exports = { handleAnimal, handleAnimalSearch };
+
+const handleMap = async (req, res, next) => {
+  mapboxgl.accessToken = process.env.MAPBOX_API_KEY;
+  const map = new mapboxgl.Map({
+    container: "map", // container ID
+    style: "mapbox://styles/mapbox/streets-v12", // style URL
+    center: [-74.5, 40], // starting position [lng, lat]
+    zoom: 9, // starting zoom
+  });
+};
+module.exports = { handleAnimal, handleAnimalSearch, handleMap };

@@ -1,6 +1,6 @@
 {
-  "name": "cab432-n11198851-a1-v1",
-  "version": "0.0.0",
+  "name": "suanimal",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "nodemon -L ./src/bin/www"

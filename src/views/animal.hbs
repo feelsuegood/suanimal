@@ -1,12 +1,36 @@
-<h1>Choose an animal you want to know</h1>
-
-{{#each searchedAnimal}}
-<p>{{this.name}}</p>
-<a href="animal/{{this.taxonomy.scientific_name}}">{{this.taxonomy.scientific_name}}</a>
-<p>{{this.taxonomy.scientific_name}}</p>
-{{/each}}
-
-{{#each photoData}}
- <a href={{this.url}}>
-    <img src={{this.image}} alt={{this.title}} />
-    {{/each}}
+<h1 class="page__title">Choose an animal you want to know</h1>
+<div class="row row-cols-1 row-cols-md-4 g-4 card-container">
+  {{#each animalData}}
+    <div class="col">
+      <div class="card text-bg-warning h-100">
+        <a
+          href={{this.photoData.url}}
+          class="custom-card-image"
+        >
+          <img
+            src={{this.photoData.image}}
+            class="card-img-top img-card"
+            alt={{this.photoData.title}}
+          />
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">{{this.name}}</h5>
+          <p class="card-text">{{this.characteristics.slogan}}</p>
+          <p class="card-text"><small
+            >{{this.taxonomy.scientific_name}}</small></p>
+        </div>
+        <div class="card-footer">
+            <p><a
+              href="/animal/threat?name={{this.first_scientific_name}}&location={{this.locationString}}"
+            ><i class="fa-solid fa-caret-right" style="color: #454545;"></i>  Features</a></p>
+            <a
+              href="/animal/threat?name={{this.first_scientific_name}}&location={{this.locationString}}"
+            ><i class="fa-solid fa-caret-right" style="color: #454545;"></i>  Habitats</a>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>
+<script
+      src="javascripts/animal.js"
+    ></script>

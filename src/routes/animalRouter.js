@@ -9,6 +9,6 @@ const animalRouter = express.Router();
 /* GET animal page. */
 // animalRouter.get("/", handleAnimal);
 animalRouter.get("/", handleAnimalSearch);
-animalRouter.get("/:scientificName", handleAnimal);
+animalRouter.get("/threat", handleAnimal);
 
 module.exports = animalRouter;

@@ -1,0 +1,30 @@
+{
+  "Africa": {
+    "latitude": 1.2921,
+    "longitude": 36.8219
+  },
+  "Antarctica": {
+    "latitude": -90.0,
+    "longitude": 0.0
+  },
+  "Asia": {
+    "latitude": 34.0479,
+    "longitude": 100.6197
+  },
+  "Europe": {
+    "latitude": 54.526,
+    "longitude": 15.2551
+  },
+  "North America": {
+    "latitude": 54.526,
+    "longitude": -105.2551
+  },
+  "Oceania": {
+    "latitude": -25.2744,
+    "longitude": 133.7751
+  },
+  "South America": {
+    "latitude": -14.235,
+    "longitude": -51.9253
+  }
+}
