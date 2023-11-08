@@ -1,0 +1,158 @@
+<h1 class="page__title">{{animalName}} is living in {{locationString}}</h1>
+<div id="map-container">
+    <div id="map"></div>
+</div>
+{{#each combinedData}}
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight{{this.index}}" aria-labelledby="offcanvasRightLabel{{this.index}}" style="width: 70%;">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">{{this.location}}</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    <div id="chart-container"><svg id="chart{{this.index}}"></svg></div>
+  </div>
+</div>
+{{/each}}
+
+{{!-- Mapbox script --}}
+<script>
+mapboxgl.accessToken =
+  "pk.eyJ1Ijoia25vdXJzdWVsZiIsImEiOiJjbG1qcXNvYmMwNjJkMmptdGE0bm9wanFmIn0.laapyyhcMdoQvWElDP6wKQ";
+const map = new mapboxgl.Map({
+  container: "map",
+  style: "mapbox://styles/mapbox/streets-v12",
+  center: [parseFloat({{geoData.[0].lon}}), parseFloat({{geoData.[0].lat}})],
+  zoom: 1.5,
+});
+
+map.on("load", () => {
+  map.addSource("places", {
+    type: "geojson",
+    data: {
+      type: "FeatureCollection",
+      features: [
+        {{#each combinedData}}
+        {
+          type: "Feature",
+          properties: {
+            description:
+              '<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight{{this.index}}" aria-controls="offcanvasRight{{this.index}}">Get Climate Data</button>',
+          },
+          geometry: {
+            type: "Point",
+            coordinates: [parseFloat({{this.geo.lon}}), parseFloat({{this.geo.lat}})],
+          },
+        },
+        {{/each}}
+      ],
+    },
+  });
+  
+  map.addLayer({
+    id: "places",
+    type: 'circle',
+    source: 'places',
+    paint: {
+      'circle-color': '#4264fb',
+      'circle-radius': 6,
+      'circle-stroke-width': 2,
+      'circle-stroke-color': '#ffffff'
+    }
+  });
+
+  map.on("click", "places", (e) => {
+    const coordinates = e.features[0].geometry.coordinates.slice();
+    const description = e.features[0].properties.description;
+
+    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+      coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+    }
+
+    new mapboxgl.Popup().setLngLat(coordinates).setHTML(description).addTo(map);
+  });
+
+  map.on("mouseenter", "places", () => {
+    map.getCanvas().style.cursor = "pointer";
+  });
+
+  map.on("mouseleave", "places", () => {
+    map.getCanvas().style.cursor = "";
+  });
+});
+</script>
+
+{{!-- D3.js graph script --}}
+<script>
+{{#each temData}}
+const temData{{this.index}} = [
+  {{#each data}}
+    {
+      "month": {{month}},
+      "tavg": {{tavg}},
+      "tmin": {{tmin}},
+      "tmax": {{tmax}},
+      "prcp": {{prcp}},
+      "pres": {{pres}},
+      "tsun": {{tsun}}
+    }
+    {{#unless @last}},{{/unless}}
+  {{/each}}
+];
+{{/each}}
+
+{{#each combinedData}}
+  // Chart configuration
+  const width{{this.index}} = 600;
+  const height{{this.index}} = 400;
+  const margin{{this.index}} = { top: 20, right: 30, bottom: 30, left: 40 };
+
+  // Create an SVG element for the chart
+  const svg{{this.index}} = d3.select("#chart{{this.index}}")
+    .attr("width", width{{this.index}})
+    .attr("height", height{{this.index}});
+
+  // Create x and y scales
+  const xScale{{this.index}} = d3.scaleLinear()
+    .domain([1, 12])
+    .range([margin{{this.index}}.left, width{{this.index}} - margin{{this.index}}.right]);
+
+  const yScale{{this.index}} = d3.scaleLinear()
+    .domain([-10, 30])
+    .range([height{{this.index}} - margin{{this.index}}.bottom, margin{{this.index}}.top]);
+
+  // Define a line function for the chart
+  const line{{this.index}} = d3.line()
+    .x(d => xScale{{this.index}}(d.month))
+    .y(d => yScale{{this.index}}(d.tavg));
+
+  // Draw the x-axis
+  svg{{this.index}}.append("g")
+    .attr("class", "x-axis")
+    .attr("transform", `translate(0, ${height{{this.index}} - margin{{this.index}}.bottom})`)
+    .call(d3.axisBottom(xScale{{this.index}}));
+
+  // Draw the y-axis
+  svg{{this.index}}.append("g")
+    .attr("class", "y-axis")
+    .attr("transform", `translate(${margin{{this.index}}.left}, 0)`)
+    .call(d3.axisLeft(yScale{{this.index}}));
+
+  // Draw the line chart if data is available
+  if (temData{{this.index}}.length > 0) {
+    svg{{this.index}}.append("path")
+      .datum(temData{{this.index}})
+      .attr("fill", "none")
+      .attr("stroke", "steelblue")
+      .attr("stroke-width", 2)
+      .attr("d", line{{this.index}});
+  } else {
+    // Display "No data" message
+    svg{{this.index}}.append("text")
+      .attr("x", width{{this.index}} / 2)
+      .attr("y", height{{this.index}} / 2)
+      .attr("text-anchor", "middle")
+      .text("No temperature data");
+  }
+{{/each}}
+
+</script>

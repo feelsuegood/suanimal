@@ -5,7 +5,7 @@
       <div class="card text-bg-warning h-100">
         <a
           href={{this.photoData.url}}
-          class="custom-card-image"
+          class="custom-card-image" target="_blank"
         >
           <img
             src={{this.photoData.image}}
@@ -21,10 +21,10 @@
         </div>
         <div class="card-footer">
             <p><a
-              href="/animal/threat?name={{this.first_scientific_name}}&location={{this.locationString}}"
+              href="/animal/feature?name={{this.name}}&sci_name={{this.first_scientific_name}}&location={{this.locationString}}"
             ><i class="fa-solid fa-caret-right" style="color: #454545;"></i>  Features</a></p>
             <a
-              href="/animal/threat?name={{this.first_scientific_name}}&location={{this.locationString}}"
+              href="/animal/habitat?name={{this.name}}&sci_name={{this.first_scientific_name}}&location={{this.locationString}}"
             ><i class="fa-solid fa-caret-right" style="color: #454545;"></i>  Habitats</a>
         </div>
       </div>
