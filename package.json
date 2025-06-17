@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon -L ./src/bin/www",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "start": "node ./src/bin/www",
+    "dev": "nodemon -L ./src/bin/www"
   },
   "dependencies": {
     "aws-sdk": "^2.1459.0",
