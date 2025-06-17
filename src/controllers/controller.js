@@ -52,92 +52,85 @@ const handleHome = async (req, res) => {
  */
 const handleAnimal = async (req, res, next) => {
   const name = req.query.name;
-  const animalResponse = await axios.get(
-    "https://api.api-ninjas.com/v1/animals",
-    {
-      params: { name },
-      headers: {
-        "X-Api-Key": X_API_KEY,
+  try {
+    // * Fetch animal data
+    const animalResponse = await axios.get(
+      "https://api.api-ninjas.com/v1/animals",
+      {
+        params: { name },
+        headers: {
+          "X-Api-Key": X_API_KEY,
+        },
       },
-    },
-  );
-  // console.log("✅",animalResponse.data);
-  if (animalResponse.status !== 200) {
-    console.error(
-      "Error from Animal API:",
-      animalResponse.status,
-      animalResponse.statusText,
     );
+    // res.json(animalResponse.data);
+    // console.log(animalResponse.data[0]);
+
+    // * Filter animals with scientific name
+    const filteredAnimals = animalResponse.data.filter(
+      (animal) => animal.taxonomy && animal.taxonomy.scientific_name,
+    );
+    // res.json(filteredAnimals);
+    // console.log(filteredAnimals.length);
+    // console.log(filteredAnimals.slice(0, 1));
+
+    // * Fetch photo data and combine with animal data
+    const animalDataWithImages = await Promise.all(
+      filteredAnimals.map(async (animal) => {
+        const flickrParams = {
+          method: "flickr.photos.search",
+          api_key: FLICKR_API_KEY,
+          safe_search: 1,
+          per_page: 1,
+          sort: "relevance",
+          format: "json",
+          nojsoncallback: 1,
+          media: "photos",
+          text: animal.name,
+        };
+        const queryString = new URLSearchParams(flickrParams).toString();
+        const flickrUrl = `https://api.flickr.com/services/rest?${queryString}`;
+        console.log(animal.name);
+        console.log(flickrUrl);
+        // console.log(index + 1, "/", filteredAnimals.length);
+        try {
+          const flickrResponse = await fetch(flickrUrl);
+          const filckrData = await flickrResponse.json();
+          // res.json(filckrData);
+
+          // array of photo data
+          // _t.jpg: thumbnail
+          const photoData = filckrData.photos.photo.map((photo) => ({
+            animalName: animal.name,
+            image: `http://farm${photo.farm}.static.flickr.com/${photo.server}/${photo.id}_${photo.secret}.jpg`,
+            url: `http://www.flickr.com/photos/${photo.owner}/${photo.id}`,
+            title: photo.title,
+          }));
+          // console.log(photoData);
+          return { ...animal, photoData: photoData[0] };
+        } catch (error) {
+          console.error(`Error fetching photo data for ${animal.name}:`, error);
+          return { ...animal, photoData: null };
+        }
+      }),
+    );
+    // res.json(animalDataWithImages);
+    res.render("animal", {
+      pageTitle: `🐨 Search | Suanimal 🦘`,
+      animalDataWithImages,
+    });
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    res.status(500).render("error", {
+      title: "🐨 Error: Nothing Found | Suanimal 🦘",
+      message: "Nothing Found",
+      description: "Error fetching data",
+    });
   }
-  const animalResultList = animalResponse.data.filter(
-    (animal) => animal.taxonomy && animal.taxonomy.scientific_name,
-  );
-  const animalName = searchedAnimal[0].taxonomy.scientific_name
-    .toLowerCase()
-    .split(" ")[0];
-  console.log(animalName);
-
-  // Flickr API
-  const flickrParams = {
-    method: "flickr.photos.search",
-    api_key: FLICKR_API_KEY,
-    safe_search: 1,
-    per_page: 1,
-    sort: "relevance",
-    format: "json",
-    nojsoncallback: 1,
-    media: "photos",
-  };
-
-  const queryString = new URLSearchParams(flickrParams).toString();
-  const flickrUrl = `https://api.flickr.com/services/rest?${queryString}&text=${animalName}`;
-  // console.log("🔗 Flickr URL:", flickrUrl);
-
-  // TODO: use map() later
-
-  const flickrResponse = await fetch(flickrUrl);
-  const data = await flickrResponse.json();
-  //✅ console.log(data);
-
-  // _t.jpg: thumbnail
-  // array of photo data
-  const photoData = data.photos.photo.map((photo) => ({
-    animalName: animalName,
-    image: `http://farm${photo.farm}.static.flickr.com/${photo.server}/${photo.id}_${photo.secret}.jpg`,
-    url: `http://www.flickr.com/photos/${photo.owner}/${photo.id}`,
-    title: photo.title,
-  }));
-  // .flat();
-
-  res.json(photoData);
-
-  // combine photo data, scientific name
-  // Extract only one, filter out those without scientific names
-  const animalData = searchedAnimal.map((animal, index) => ({
-    ...animal,
-    photoData: photoData[index],
-    first_scientific_name: animal.taxonomy.scientific_name.split(", ")[0],
-    locationString: animal.locations.join(","),
-  }));
-  console.log(animalData);
-  res.json(animalData);
-  // res.render("animal", {
-  //   pageTitle: `🐨 Search | Suanimal 🦘`,
-  //   animalData,
-  // });
-  // } catch (error) {
-  //   console.error("Error fetching data:", error);
-  //   const title = "Error: Nothing Found";
-  //   res.status(500).render("error", {
-  //     title,
-  //     message: "Nothing Found",
-  //     description: "Error fetching data",
-  //   });
-  // }
 };
 
 // * Feature page: show detail information about a specific animal with threat status
-// https://gbif.github.io/gbif-api/apidocs/org/gbif/api/vocabulary/ThreatStatus.html threat status info
+// threat status info: https://gbif.github.io/gbif-api/apidocs/org/gbif/api/vocabulary/ThreatStatus.html
 const handleFeature = async (req, res, next) => {
   try {
     const animalName = req.query.name;
@@ -146,7 +139,7 @@ const handleFeature = async (req, res, next) => {
     const locationArray = locationString.split(",");
 
     // * fetch threat data
-    async function fetchThreatStatus(scientificName) {
+    const fetchThreatStatus = async (scientificName) => {
       const baseUrl = `https://api.gbif.org/v1/species/search?q=${scientificName}&nametype=SCIENTIFIC`;
       const threatTypes = [
         "EXTINCT",
@@ -157,38 +150,31 @@ const handleFeature = async (req, res, next) => {
         "NEAR_THREATENED",
         "LEAST_CONCERN",
       ];
-
       let threatData = null;
-
       for (const threat of threatTypes) {
         const url = baseUrl + `&threat=${threat}`;
         console.log(url);
-
         const response = await axios.get(url);
-
         if (response.status !== 200) {
           throw new Error(`Error fetching data: ${response.status}`);
         }
-
         const data = response.data;
-
         if (data.count !== 0) {
           threatData = data.results[0].threatStatuses[0];
           break;
         }
       }
-
-      // threatData가 null인 경우 "NO RESULT"를 할당합니다.
+      // if threatData is null, assign "NO RESULT"
       if (threatData === null) {
         threatData = "NO RESULT";
       }
-
       return threatData;
-    }
-    // ! 1) threat Data
+    };
     const threatData = await fetchThreatStatus(scientificName);
+    // res.json(threatData);
 
     // * Fetch animal data
+
     const animalResponse = await axios.get(
       "https://api.api-ninjas.com/v1/animals",
       {
@@ -198,53 +184,61 @@ const handleFeature = async (req, res, next) => {
         },
       },
     );
+    // res.json(animalResponse.data);
+    // console.log(animalResponse.data[0]);
 
-    if (animalResponse.status !== 200) {
-      console.error(
-        "Error from Animal API:",
-        animalResponse.status,
-        animalResponse.statusText,
-      );
-      res.render("error", { error: "Error from Animal API" });
-      return;
-    }
+    // * Filter animals with scientific name
+    // const filteredAnimals = animalResponse.data.filter(
+    //   (animal) =>
+    //     animal.taxonomy && animal.taxonomy.scientific_name === scientificName,
+    // );
+    // res.json(filteredAnimals);
+    // console.log(filteredAnimals.length);
+    // console.log(filteredAnimals.slice(0, 1));
 
-    const featuredAnimal = animalResponse.data;
+    // const featuredAnimal = filteredAnimals[0];
+    // res.json(featuredAnimal);
+
+    const featuredAnimal = animalResponse.data.find(
+      (animal) =>
+        animal.taxonomy && animal.taxonomy.scientific_name === scientificName,
+    );
 
     // * Fetch Flickr photo data
-    const flickrAPIBaseUrl = `https://api.flickr.com/services/rest?method=flickr.photos.search&api_key=${FLICKR_API_KEY}&safe_search=1&per_page=1&sort=relevance&format=json&nojsoncallback=1&media=photos`;
-    const animalNameLower =
-      featuredAnimal[0].taxonomy.scientific_name.toLowerCase();
-    const flickrAPIUrl = `${flickrAPIBaseUrl}&text=${animalNameLower}`;
+    const flickrParams = {
+      method: "flickr.photos.search",
+      api_key: FLICKR_API_KEY,
+      safe_search: 1,
+      per_page: 1,
+      sort: "relevance",
+      format: "json",
+      nojsoncallback: 1,
+      media: "photos",
+      text: featuredAnimal.name,
+    };
+    const queryString = new URLSearchParams(flickrParams).toString();
+    const flickrUrl = `https://api.flickr.com/services/rest?${queryString}`;
 
-    const response = await axios.get(flickrAPIUrl);
+    const flickrResponse = await fetch(flickrUrl);
+    const filckrData = await flickrResponse.json();
 
-    if (!response.data) {
-      throw new Error("Failed to fetch data from Flickr API");
-    }
-
+    // array of photo data
     // _t.jpg: thumbnail
-    const photoData = response.data.photos.photo.map((photo) => ({
+    const photoData = filckrData.photos.photo.map((photo) => ({
+      animalName: featuredAnimal.name,
       image: `http://farm${photo.farm}.static.flickr.com/${photo.server}/${photo.id}_${photo.secret}.jpg`,
       url: `http://www.flickr.com/photos/${photo.owner}/${photo.id}`,
       title: photo.title,
-    }));
+    }))[0];
+    // res.json(photoData);
 
-    // ! 2) animal Data with picture
-    const animalData = featuredAnimal.map((animal, index) => ({
-      ...animal,
-      photoData: photoData[index],
-      first_scientific_name: animal.taxonomy.scientific_name.split(", ")[0],
-      locationString: animal.locations.join(","),
-    }));
-
-    // * Get news data
+    // * Get news data for featured animal
     const newsOptions = {
       method: "GET",
       url: "https://news67.p.rapidapi.com/v2/topic-search",
       params: {
         languages: "en",
-        search: animalName,
+        search: featuredAnimal.name,
         batchSize: MAX_ITEM.toString(),
       },
       headers: {
@@ -253,15 +247,15 @@ const handleFeature = async (req, res, next) => {
       },
     };
     const newsResponse = await axios.request(newsOptions);
-
-    // ! 3) news Data
     const newsData = newsResponse.data;
+    // res.json(newsData);
 
     // * Render the page
     res.render("feature", {
       pageTitle: `🐨 Feature | Suanimal 🦘`,
-      animalData,
       threatData: threatData.replace("_", " "),
+      featuredAnimal,
+      photoData,
       newsData,
     });
   } catch (error) {

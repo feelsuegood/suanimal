@@ -1,8 +1,9 @@
 <h1 class="page__title">Choose an animal you want to know</h1>
 <div class="row row-cols-1 row-cols-md-4 g-4 card-container">
-  {{#each animalData}}
+  {{#each animalDataWithImages}}
     <div class="col">
       <div class="card text-bg-warning h-100">
+        {{#if this.photoData}}
         <a
           href={{this.photoData.url}}
           class="custom-card-image"
@@ -12,8 +13,23 @@
             src={{this.photoData.image}}
             class="card-img-top img-card"
             alt={{this.photoData.title}}
-          />
-        </a>
+            />
+          </a>
+        {{/if}}
+        {{!-- if there's no photo data, show default image --}}
+        {{#unless this.photoData}}
+          <a
+            href="#"
+            class="custom-card-image"
+            target="_blank"
+          >
+          <img
+            src="favicon.ico"
+            class="card-img-top img-card"
+            alt="default image"
+            />
+          </a>
+        {{/unless}}
         <div class="card-body">
           <h5 class="card-title">{{this.name}}</h5>
           <p class="card-text">{{this.characteristics.slogan}}</p>
@@ -22,11 +38,11 @@
         </div>
         <div class="card-footer">
           <p><a
-              href="/animal/feature?name={{this.name}}&sci_name={{this.first_scientific_name}}&location={{this.locationString}}"
+              href="/animal/feature?name={{this.name}}&sci_name={{this.taxonomy.scientific_name}}&location={{this.locations.[0]}}"
             ><i class="fa-solid fa-caret-right" style="color: #454545;"></i>
               Features</a></p>
           <a
-            href="/animal/habitat?name={{this.name}}&sci_name={{this.first_scientific_name}}&location={{this.locationString}}"
+            href="/animal/habitat?name={{this.name}}&sci_name={{this.taxonomy.scientific_name}}&location={{this.locations.[0]}}"
           ><i class="fa-solid fa-caret-right" style="color: #454545;"></i>
             Habitats</a>
         </div>

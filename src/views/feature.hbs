@@ -1,37 +1,35 @@
  <div class="container mt-5">
-        <h1 class="page__title">Features of {{animalData.[0].name}}</h1>
+        <h1 class="page__title">Features of {{featuredAnimal.name}}</h1>
         
         <div class="row">
             <div class="col-md-6">
-                <a href="{{animalData.[0].photoData.url}}" target="_blank">
-                    <img src="{{animalData.[0].photoData.image}}" alt="{{animalData.[0].photoData.title}}" class="img-fluid">
+                <a href="{{photoData.url}}" target="_blank">
+                    <img src="{{photoData.image}}" alt="{{photoData.title}}" class="img-fluid">
                 </a>
             </div>
             <div class="col-md-6">
                 <h2>Threat Status: {{threatData}}</h2>
                 
                 <h2>Taxonomy</h2>
-                <p>Kingdom: {{animalData.[0].taxonomy.kingdom}}</p>
-                <p>Phylum: {{animalData.[0].taxonomy.phylum}}</p>
-                <p>Class: {{animalData.[0].taxonomy.class}}</p>
-                <p>Order: {{animalData.[0].taxonomy.order}}</p>
-                <p>Family: {{animalData.[0].taxonomy.family}}</p>
-                <p>Genus: {{animalData.[0].taxonomy.genus}}</p>
-                <p>Scientific name: {{animalData.[0].taxonomy.scientific_name}}</p>
+                <p>Kingdom: {{featuredAnimal.taxonomy.kingdom}}</p>
+                <p>Phylum: {{featuredAnimal.taxonomy.phylum}}</p>
+                <p>Class: {{featuredAnimal.taxonomy.class}}</p>
+                <p>Order: {{featuredAnimal.taxonomy.order}}</p>
+                <p>Family: {{featuredAnimal.taxonomy.family}}</p>
+                <p>Genus: {{featuredAnimal.taxonomy.genus}}</p>
+                <p>Scientific name: {{featuredAnimal.taxonomy.scientific_name}}</p>
             </div>
         </div>
 
         <h2>Locations</h2>
-        {{#each animalData}}
-        <p>Location: {{this.locations}}</p>
-        {{/each}}
+        <p>Location: {{featuredAnimal.locations}}</p>
 
         <h2>Characteristics</h2>
-        <p>Habitat: {{animalData.[0].characteristics.habitat}}</p>
-        <p>Predators: {{animalData.[0].characteristics.predators}}</p>
-        <p>Lifespan: {{animalData.[0].characteristics.lifespan}}</p>
-        <p>Weight: {{animalData.[0].characteristics.weight}}</p>
-        <p>Height: {{animalData.[0].characteristics.height}}</p>
+        <p>Habitat: {{featuredAnimal.characteristics.habitat}}</p>
+        <p>Predators: {{featuredAnimal.characteristics.predators}}</p>
+        <p>Lifespan: {{featuredAnimal.characteristics.lifespan}}</p>
+        <p>Weight: {{featuredAnimal.characteristics.weight}}</p>
+        <p>Height: {{featuredAnimal.characteristics.height}}</p>
 
         <h2>Related News</h2>
         {{#each newsData.news}}
