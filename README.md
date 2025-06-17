@@ -109,10 +109,6 @@ docker run -p 3000:3000 --env-file .env suanimal
 - Combine multiple APIs to provide rich animal information
 - Implement error handling and fallback mechanism
 
-### 반응형 디자인
-- Bootstrap을 활용한 모바일 친화적 디자인
-- 다양한 화면 크기 지원
-
 ## 📝 License
 
 This project is licensed under the MIT License.
